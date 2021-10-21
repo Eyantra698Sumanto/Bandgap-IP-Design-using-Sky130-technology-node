@@ -26,7 +26,7 @@ ________________________________________________________________________
   * Zener diode is not used due to frequency and thermal noise constraints
   * A BGR can be integrated in bulk CMOS, bi CMOS without need for external components
   * Hence BGR is widely used
-- **Applications of BGR**
+- Applications of BGR
   * LDO
   * DC to DC Buck  Converters
   * ADCs and DACs
@@ -66,7 +66,7 @@ ________________________________________________________________________
 2. Using BJT
 ### Why BJT is preferred na not diode
 ![image](https://user-images.githubusercontent.com/58599984/138248192-13df5133-67c2-4701-af1f-7fa6ca39ece9.png)
-- Because as shown in fig. above it is difficult to connect P-substrate of diode to ground hence BJT is preffered.
+- Because as shown in fig. above it is difficult to connect P-substrate of diode to ground hence BJT is preferred.
 ### Analysis of CTAT Circuit
 ![image](https://user-images.githubusercontent.com/58599984/138248934-1a940235-0b7e-4d7f-92be-20bdfe82fb75.png)
 - Temperature coefficient = -1.88 mV/degree Kelvin
