@@ -35,13 +35,19 @@ ________________________________________________________________________
 - BGR principle is based on complementary to absolute temperature (CTAT) and proportional to absolute temperature (PTAT)
 - Types of BGR
   * Based on Architecture
-    + Using self Biased Current mirror
+    + Using Self Biased Current mirror
     + Using Operational Amplifier'
   * Based on Application
     + Low Voltage BGR
     + Low power BGR
     + High PSRR and low noise BGR
     + Curvature compensated BGR
+-  Self Biased Current Mirror    
+   * Advantages
+       1. Simplest Topolgy
+       2. Easy to design
+       3. Always Stable
+   * Limitations
   
 # References
 1.
