@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/58599984/138215051-f7414ea3-dce7-4978-a5ab-fcb6a6ed25fe.png)
 This repo contains documentation of the "VSD Open Tutorial Bandgap IP Design using Sky130 technology node".
 ________________________________________________________________________
-# Day 1
+# Day 1 Bandgap Design Theory
 ## BGRSK1-Day1-Theory Lec0 Opening Lecture
 ![image](https://user-images.githubusercontent.com/58599984/138240411-597c24cf-4b01-4ed2-a6d6-7b89185598bf.png)
 
@@ -143,9 +143,19 @@ ________________________________________________________________________
 ## Start Up Circuit Design
 ![image](https://user-images.githubusercontent.com/58599984/138257823-880e581a-920f-456b-a0ed-e14cbaaca989.png)
 
-# BGRSK1-Day1-Theory Lec7 Complete BGR Circuit
+## BGRSK1-Day1-Theory Lec7 Complete BGR Circuit
 Hence, this is the complete BGR circuit with all the blocks:
 ![image](https://user-images.githubusercontent.com/58599984/138258067-907c5d3e-a84a-46b2-9438-92305818e1b6.png)
+
+# Day2 Bandgap design Labs using Sky130
+## BGRSK2-Day2-Lab1 Tools and PDK Setup
+### Installing Ngspice
+ngspice is the open source spice simulator for electric and electronic circuits. 
+ngspice offers a wealth of device models for active, passive, analog, and digital elements. Model parameters are provided by our collections, by the semiconductor device manufacturers, or from semiconductor foundries. The user adds her circuits as a netlist, and the output is one or more graphs of currents, voltages and other electrical quantities or is saved in a data file
+For more details refer:
+http://ngspice.sourceforge.net/
+To install ngspice follow:
+https://sourceforge.net/projects/ngspice/files/ng-spice-rework/35/
 
 # Acknowledgement
 I would like to thank Mr. Kunal Ghosh, Mrs. Anagha Ghosh, Prof. Saroj Rout and Prof. Shantanu Sarangi for the tutorial explained in the simplest way possible. It helped me to learn more about the BandGap Reference in a very easy and structured manner. Also, the labs were very well explained. It will be very helpful for students to  learn working on Sky130 technology as well.
