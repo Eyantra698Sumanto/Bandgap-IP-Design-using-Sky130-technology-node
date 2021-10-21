@@ -61,13 +61,20 @@ ________________________________________________________________________
 ## BGRSK1-Day1-Theory Lec2 CTAT Voltage generation Circuit 
 ### CTAT Voltage Generation
 ![image](https://user-images.githubusercontent.com/58599984/138247274-5df9f425-209e-432e-a106-0182e4129c86.png)
-It is done in two ways:
+- It is done in two ways:
 1. Using Diode
 2. Using BJT
 ### Why BJT is preferred na not diode
 ![image](https://user-images.githubusercontent.com/58599984/138248192-13df5133-67c2-4701-af1f-7fa6ca39ece9.png)
-Because as shown in fig. above it is difficult to connect P-substrate of diode to ground hence BJT is preffered.
-
+- Because as shown in fig. above it is difficult to connect P-substrate of diode to ground hence BJT is preffered.
+### Analysis of CTAT Circuit
+![image](https://user-images.githubusercontent.com/58599984/138248934-1a940235-0b7e-4d7f-92be-20bdfe82fb75.png)
+- Temperature coefficient = -1.88 mV/degree Kelvin
+### CTAT Voltage Generation in various cases
+![image](https://user-images.githubusercontent.com/58599984/138249308-7fdf5073-89a4-469c-8f93-f530ab6f1061.png)
+Case 1: Constant current and BJT units
+Case 2: Increasing the BJT units
+Case 3: Increasing Current
 
 ## References
 1.
