@@ -147,7 +147,8 @@ ________________________________________________________________________
 Hence, this is the complete BGR circuit with all the blocks:
 ![image](https://user-images.githubusercontent.com/58599984/138258067-907c5d3e-a84a-46b2-9438-92305818e1b6.png)
 
-
+# Acknowledgement
+I would like to thank Mr. Kunal Ghosh, Mrs. Anagha Ghosh, Prof. Saroj Rout and Prof. Shantanu Sarangi for the tutorial explained in the simplest way possible. It helped me to learn more about the BandGap Reference in a very easy and structured manner. Also, the labs were very well explained. It will be very helpful for students to  learn working on Sky130 technology as well.
 
 
 
