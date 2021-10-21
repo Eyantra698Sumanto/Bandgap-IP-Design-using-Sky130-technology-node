@@ -5,7 +5,7 @@ ________________________________________________________________________
 # Day 1
 # Theory Lec0 Opening Lecture
 ![image](https://user-images.githubusercontent.com/58599984/138236923-6ecc6bf3-c53f-4232-b253-27cf76b69349.png)
--Integrated Circuits need Linear rgulated voltage which are provided by LDO(Low-dropout linear regulators).
+- Integrated Circuits need Linear rgulated voltage which are provided by LDO(Low-dropout linear regulators).
 
 # References
 1.
