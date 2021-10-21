@@ -59,6 +59,15 @@ ________________________________________________________________________
   + Refernce branch Circuit
   + Start Up circuit
 ## BGRSK1-Day1-Theory Lec2 CTAT Voltage generation Circuit 
+### CTAT Voltage Generation
+![image](https://user-images.githubusercontent.com/58599984/138247274-5df9f425-209e-432e-a106-0182e4129c86.png)
+It is done in two ways:
+1. Using Diode
+2. Using BJT
+### Why BJT is preferred na not diode
+![image](https://user-images.githubusercontent.com/58599984/138248192-13df5133-67c2-4701-af1f-7fa6ca39ece9.png)
+Because as shown in fig. above it is difficult to connect P-substrate of diode to ground hence BJT is preffered.
+
 
 ## References
 1.
