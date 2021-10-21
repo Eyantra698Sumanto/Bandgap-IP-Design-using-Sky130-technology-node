@@ -59,6 +59,7 @@ ________________________________________________________________________
   + Refernce branch Circuit
   + Start Up circuit
 ## BGRSK1-Day1-Theory Lec2 CTAT Voltage generation Circuit 
-# References
+
+## References
 1.
 2. https://www.ti.com/power-management/linear-regulators-ldo/overview.html
