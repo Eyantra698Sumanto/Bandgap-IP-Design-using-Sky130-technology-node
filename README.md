@@ -157,6 +157,38 @@ http://ngspice.sourceforge.net/</br>
 To install ngspice follow:</br>
 https://sourceforge.net/projects/ngspice/files/ng-spice-rework/35/
 
+### Setting up Sky130 Libraries
+The SkyWater Open Source PDK is a collaboration between Google and SkyWater Technology Foundry to provide a fully open source Process Design Kit and related resources, which can be used to create manufacturable designs at SkyWater’s facility.
+For more details refer:</br>
+https://github.com/google/skywater-pdk</br>
+https://skywater-pdk.readthedocs.io/en/latest/rules.html</br>
+
+To setup skywater libraried follow these steps:
+1. Open terminal in your working directory and run the following command:
+```git clone https://github.com/google/skywater-pdk-libs-sky130_fd_pr.git```
+2. Rename the folder as sky130_fd_pr (optional)
+![image](https://user-images.githubusercontent.com/58599984/138348797-1b460169-b903-41f3-bec2-6a19a5a1e481.png)
+
+### Running Magic for layout
+Magic is an open source tool for layout design. For more details refer:</br>
+http://opencircuitdesign.com/magic/</br>
+Follow these steps to setup magic:
+1. Download Skywater PDK by running following commands:
+ ```git clone git://opencircuitdesign.com/open_pdks
+cd open_pdks
+./configure --enable-sky130-pdk
+make
+sudo make install```
+2. Install magic using following commands:
+```git clone git://opencircuitdesign.com/magic
+cd magic
+sudo ./configure
+sudo make
+sudo make install```
+3. Run magic using the following command:
+![image](https://user-images.githubusercontent.com/58599984/138350095-60eba5f1-0c0a-46fa-a8b8-da33ac5ced17.png)
+
+
 # Acknowledgement
 I would like to thank Mr. Kunal Ghosh, Mrs. Anagha Ghosh, Prof. Saroj Rout and Prof. Shantanu Sarangi for the tutorial explained in the simplest way possible. It helped me to learn more about the BandGap Reference in a very easy and structured manner. Also, the labs were very well explained. It will be very helpful for students to  learn working on Sky130 technology as well.
 
@@ -165,3 +197,5 @@ I would like to thank Mr. Kunal Ghosh, Mrs. Anagha Ghosh, Prof. Saroj Rout and P
 ## References
 1. VSD Open Tutorial Bandgap IP Design using Sky130 technology node
 2. https://www.ti.com/power-management/linear-regulators-ldo/overview.html
+3. https://github.com/google/skywater-pdk
+4. https://skywater-pdk.readthedocs.io/en/latest/rules.html
