@@ -26,7 +26,7 @@ ________________________________________________________________________
   * Zener diode is not used due to frequency and thermal noise constraints
   * A BGR can be integrated in bulk CMOS, bi CMOS without need for external components
   * Hence BGR is widely used
-- **Applications of BGR
+- **Applications of BGR**
   * LDO
   * DC to DC Buck  Converters
   * ADCs and DACs
