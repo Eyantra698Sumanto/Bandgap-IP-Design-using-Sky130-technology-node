@@ -27,21 +27,21 @@ ________________________________________________________________________
   * A BGR can be integrated in bulk CMOS, bi CMOS without need for external components
   * Hence BGR is widely used
 - Applications of BGR
- * LDO
- * DC to DC Buck  Converters
- * ADCs and DACs
+  * LDO
+  * DC to DC Buck  Converters
+  * ADCs and DACs
   ![image](https://user-images.githubusercontent.com/58599984/138244144-c430e110-2a04-45a7-9daa-3195efe70a6b.png)
   ![image](https://user-images.githubusercontent.com/58599984/138244227-95bca0da-52b3-4355-953e-f3afc4a21967.png)
 - BGR principle is based on complementary to absolute temperature (CTAT) and proportional to absolute temperature (PTAT)
 - Types of BGR
- * Based on Architecture
-  + Using self Biased Current mirror
-  + Using Operational Amplifier'
- * Based on Application
-  + Low Voltage BGR
-  + Low power BGR
-  + High PSRR and low noise BGR
-  + Curvature compensated BGR
+  * Based on Architecture
+    + Using self Biased Current mirror
+    + Using Operational Amplifier'
+  * Based on Application
+    + Low Voltage BGR
+    + Low power BGR
+    + High PSRR and low noise BGR
+    + Curvature compensated BGR
   
 # References
 1.
