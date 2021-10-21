@@ -143,10 +143,14 @@ ________________________________________________________________________
 ## Start Up Circuit Design
 ![image](https://user-images.githubusercontent.com/58599984/138257823-880e581a-920f-456b-a0ed-e14cbaaca989.png)
 
+# BGRSK1-Day1-Theory Lec7 Complete BGR Circuit
+Hence, this is the complete BGR circuit with all the blocks:
+![image](https://user-images.githubusercontent.com/58599984/138258067-907c5d3e-a84a-46b2-9438-92305818e1b6.png)
+
 
 
 
 
 ## References
-1.
+1. VSD Open Tutorial Bandgap IP Design using Sky130 technology node
 2. https://www.ti.com/power-management/linear-regulators-ldo/overview.html
