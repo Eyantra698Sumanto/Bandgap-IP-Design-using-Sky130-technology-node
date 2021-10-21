@@ -209,6 +209,53 @@ For example:</br>
 ![image](https://user-images.githubusercontent.com/58599984/138354202-f94f3efa-69eb-4b1e-9cfc-277235ad7187.png)
 
 ## BGRSK2-Day2-Lab2 Design spec, Device data, Design Step
+### Device Datasheet
+![image](https://user-images.githubusercontent.com/58599984/138354969-f370e3ac-3718-43db-af2f-ed8edafcfafe.png)
+For more details of the devices refer:
+https://skywater-pdk.readthedocs.io/en/latest/rules/device-details.html
+
+### Resistor
+![image](https://user-images.githubusercontent.com/58599984/138355006-1044e94f-f9fd-4267-bd40-b1a027cfeb88.png)
+### Circuit Design
+![image](https://user-images.githubusercontent.com/58599984/138355068-a63d9003-c329-49f6-b305-218d677ff042.png)
+![image](https://user-images.githubusercontent.com/58599984/138355122-8d83f2c9-00bb-4161-b667-e60d0603f27f.png)
+![image](https://user-images.githubusercontent.com/58599984/138355189-4ef89b6b-45e2-41ec-80da-1225b21b568c.png)
+
+### Bandgap Reference Circuit Design
+![image](https://user-images.githubusercontent.com/58599984/138355263-e95d5a01-79f9-4755-9e46-674e89a46406.png)
+
+## BGRSK2-Day2-Lab 3-7 Prelayout Simulation
+### PTAT Simulation
+#### Netlist
+![image](https://user-images.githubusercontent.com/58599984/138356895-49351c64-1547-42bf-8f5f-0834ffd122b0.png)
+#### Ngspice simulation
+Run the following command in terminal:
+```
+ngspice ptat.cir
+```
+![image](https://user-images.githubusercontent.com/58599984/138357019-09214799-9792-4032-b885-1bde469b0c71.png)
+#### Plots
+![image](https://user-images.githubusercontent.com/58599984/138357165-24a84de7-8cd1-4e70-890a-97ce73de0c9f.png)
+### CTAT Simulation
+#### Netlist
+![image](https://user-images.githubusercontent.com/58599984/138358301-a7b07e92-328a-4ce1-afbb-5b4df6bafa43.png)
+#### Ngspice simulation
+Run the following command in terminal:
+```
+ngspice ctat.cir
+```
+![image](https://user-images.githubusercontent.com/58599984/138358187-5580da00-a1eb-4f91-b4e6-8de66b19d724.png)
+#### Plots
+![image](https://user-images.githubusercontent.com/58599984/138358256-ae3ffc49-5e39-40ef-8f6f-3f242619b7dc.png)
+#### For changing supply current
+![image](https://user-images.githubusercontent.com/58599984/138358683-e81bce51-5214-48d7-bfb7-9eeab7d921c7.png)
+
+
+
+
+
+
+
 
 
 
@@ -223,3 +270,4 @@ I would like to thank Mr. Kunal Ghosh, Mrs. Anagha Ghosh, Prof. Saroj Rout and P
 2. https://www.ti.com/power-management/linear-regulators-ldo/overview.html
 3. https://github.com/google/skywater-pdk
 4. https://skywater-pdk.readthedocs.io/en/latest/rules.html
+5. 
