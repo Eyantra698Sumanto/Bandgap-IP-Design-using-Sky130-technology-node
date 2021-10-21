@@ -52,7 +52,7 @@ ________________________________________________________________________
        2. Cascode design to reduce PSRR
        3. Voltage head room issue
        4. Need start-up circuit
-- BGR Compononents
+- BGR Components
   + CTAT Voltage generation Circuit
   + PTAT Voltage generation Circuit
   + Self Biased Current Mirror Circuit
