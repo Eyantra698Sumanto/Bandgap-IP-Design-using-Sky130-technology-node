@@ -250,6 +250,31 @@ ngspice ctat.cir
 #### For changing supply current
 ![image](https://user-images.githubusercontent.com/58599984/138358683-e81bce51-5214-48d7-bfb7-9eeab7d921c7.png)
 
+### BGR using ideal Opamp Simulation
+#### Netlist
+![image](https://user-images.githubusercontent.com/58599984/138363392-79efb9c4-d285-4d5a-ad9f-5bc6b3d51c28.png)
+![image](https://user-images.githubusercontent.com/58599984/138363416-67655224-e613-4d67-bb57-8bedd7787ee5.png)
+#### Ngspice simulation
+Run the following command in terminal:
+```
+ngspice BGR.cir
+```
+![image](https://user-images.githubusercontent.com/58599984/138363605-619bec34-1d5d-41cc-8327-34564e4a55af.png)
+#### Plots
+![image](https://user-images.githubusercontent.com/58599984/138363688-c42602e7-9742-43ba-8116-d8864cca54f4.png)
+![image](https://user-images.githubusercontent.com/58599984/138363746-f3848025-5a53-4bab-9538-506e73e1bbc6.png)
+![image](https://user-images.githubusercontent.com/58599984/138363870-81c7eefc-a15c-40f0-87f3-473d2a1a4be3.png)
+![image](https://user-images.githubusercontent.com/58599984/138363945-b583ef6d-eb73-4b71-9715-d1463bb8db0b.png)
+![image](https://user-images.githubusercontent.com/58599984/138364210-211fecb3-99f0-4fbb-bca0-2b0a9c5cc1ce.png)
+![image](https://user-images.githubusercontent.com/58599984/138364309-edd2abd3-7e48-4b87-891b-1ad8fdaacd7b.png)
+![image](https://user-images.githubusercontent.com/58599984/138364439-482ceda4-b419-47b9-ba32-80ad8ec372a8.png)
+![image](https://user-images.githubusercontent.com/58599984/138364546-c5db630e-a2ac-4104-80c6-f64e73234963.png)
+![image](https://user-images.githubusercontent.com/58599984/138364706-0da853d7-9d10-4a19-8f2a-42b45154e4eb.png)
+![image](https://user-images.githubusercontent.com/58599984/138364848-e6b84a86-f444-46ef-9cd9-d52d18a8dde8.png)
+![image](https://user-images.githubusercontent.com/58599984/138364886-6367965e-8b3a-4c71-87b5-f8089c0cd7bd.png)
+
+
+
 
 
 
