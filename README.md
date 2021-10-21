@@ -184,9 +184,28 @@ sudo make install```
 cd magic
 sudo ./configure
 sudo make
-sudo make install```
+sudo make install
+```
 3. Run magic using the following command:
 ![image](https://user-images.githubusercontent.com/58599984/138350095-60eba5f1-0c0a-46fa-a8b8-da33ac5ced17.png)
+
+### Running netgen for netlist comparision
+Netgen is a tool to compare two spice netlists. For more details refer:</br>
+http://opencircuitdesign.com/netgen/</br>
+To install netgen, run following in terminal:
+```git clone https://github.com/RTimothyEdwards/netgen.git
+./configure
+make
+make install
+```
+To compare the netlist, type **netgen** in the terminal and run this command in the tkcon window:
+```lvs <name of prelayou netlist> <name of postlayout netlist> sky130A_setup.tcl
+```
+For example:
+![image](https://user-images.githubusercontent.com/58599984/138354202-f94f3efa-69eb-4b1e-9cfc-277235ad7187.png)
+
+
+
 
 
 # Acknowledgement
