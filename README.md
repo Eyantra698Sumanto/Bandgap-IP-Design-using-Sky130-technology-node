@@ -153,7 +153,7 @@ Hence, this is the complete BGR circuit with all the blocks:
 ngspice is the open source spice simulator for electric and electronic circuits. 
 ngspice offers a wealth of device models for active, passive, analog, and digital elements. Model parameters are provided by our collections, by the semiconductor device manufacturers, or from semiconductor foundries. The user adds her circuits as a netlist, and the output is one or more graphs of currents, voltages and other electrical quantities or is saved in a data file
 For more details refer:</br>
-http://ngspice.sourceforge.net/
+http://ngspice.sourceforge.net/</br>
 To install ngspice follow:</br>
 https://sourceforge.net/projects/ngspice/files/ng-spice-rework/35/
 
