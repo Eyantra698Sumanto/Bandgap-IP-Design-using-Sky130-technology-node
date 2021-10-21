@@ -3,7 +3,7 @@
 This repo contains documentation of the "VSD Open Tutorial Bandgap IP Design using Sky130 technology node".
 ________________________________________________________________________
 # Day 1
-## Theory Lec0 Opening Lecture
+## BGRSK1-Day1-Theory Lec0 Opening Lecture
 ![image](https://user-images.githubusercontent.com/58599984/138240411-597c24cf-4b01-4ed2-a6d6-7b89185598bf.png)
 
 - Integrated Circuits need Linear rgulated voltage which are provided by LDO(Low-dropout linear regulators).
@@ -88,6 +88,55 @@ ________________________________________________________________________
 ### Design of Resistance
 - Resistance value can be calculated by the formula R1=VT ln(N)/I
 - For 10uA current and N=8, R1=5.4k ohms
+## BGRSK1-Day1-Theory Lec4 Biased Current Mirror Circuit
+### Current Mirror
+#### Circuit Diagram
+![image](https://user-images.githubusercontent.com/58599984/138254619-3465f988-970f-4fdd-a2cf-ccfd78eb5051.png)
+#### Objective
+- Independent of Supply
+- Independent of Process
+- Well Defined behavior with process
+#### Issues
+- Output current sensitive to VDD
+- Solution- The circuit must bias itself
+
+### Self Bias current mirror
+#### Circuit Diagram
+![image](https://user-images.githubusercontent.com/58599984/138255266-1797ed5a-15bb-4b8a-9d15-4ae601767617.png)
+#### Objective
+- The idea of Self bias is that Iout should be indepnedent of Iref
+#### Issues
+- Iout=K * Iref hence can support any amount of currnrt
+- To define a current one more constraint to be added
+
+
+### Self Bias current mirror with resistor
+
+#### Circuit Diagram
+![image](https://user-images.githubusercontent.com/58599984/138255965-d8783342-4832-407d-ae59-828a829b8f6e.png)
+#### Advantages
+- Rs defned the current uniquely
+- Iout and Iref have less dependency on supply
+- Loop Gain=1, hence stable
+#### Limitations 
+- Existence of degenerate bias point
+- Start up problem
+
+#### Summary
+![image](https://user-images.githubusercontent.com/58599984/138256541-0b34736a-c218-4b02-8b18-1830b4abb6b4.png)
+
+## BGRSK1-Day1-Theory Lec5 Reference Voltage branch Circuit
+### Circuit Diagram
+![image](https://user-images.githubusercontent.com/58599984/138256769-1c02bfac-4723-4f9d-b53d-7aea48e7cc44.png)
+- I3 same as I1 and I2
+- Voltage across C3 is CTAT type
+- Voltage across R2 is PTAT type
+- Vref is addition of CTAT and PTAT voltages
+
+### Design of R2 Resistance
+![image](https://user-images.githubusercontent.com/58599984/138257121-c384b9ea-7e97-4271-9331-0587bc8f207c.png)
+
+
 
 
 
