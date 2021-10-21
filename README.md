@@ -76,6 +76,22 @@ ________________________________________________________________________
 #### Case 2: Increasing the BJT units
 #### Case 3: Increasing Current
 
+## BGRSK1-Day1-Theory Lec3 PTAT Voltage generation Circuit
+### PTAT Voltage Genration Circuit
+![image](https://user-images.githubusercontent.com/58599984/138253141-2bcb7aba-b725-4355-9b0e-b64330d6bce1.png)
+### Characteristics of PTAT Circuit
+![image](https://user-images.githubusercontent.com/58599984/138253301-955a502a-1fb4-4639-bad6-3ae4e2f75ea2.png)
+<\br>
+- As temperature increases, the current through Q2 shown above increases due to higher value of N. 
+- As a result the slope of V1 Vs. T is more neagtive that than of V vs. T. 
+- Hence the difference V-V1 increases with T.
+### Design of Resistance
+- Resistance value can be calculated by the formula R1=VT ln(N)/I
+- For 10uA current and N=8, R1=5.4k ohms
+
+
+
+
 ## References
 1.
 2. https://www.ti.com/power-management/linear-regulators-ldo/overview.html
