@@ -147,6 +147,9 @@ ________________________________________________________________________
 Hence, this is the complete BGR circuit with all the blocks:
 ![image](https://user-images.githubusercontent.com/58599984/138258067-907c5d3e-a84a-46b2-9438-92305818e1b6.png)
 
+_________________________________________________________________________________________________________________
+
+
 # Day2 Bandgap design Labs using Sky130
 ## BGRSK2-Day2-Lab1 Tools and PDK Setup
 ### Installing Ngspice
@@ -205,6 +208,7 @@ lvs <name of prelayout netlist> <name of postlayout netlist> sky130A_setup.tcl
 For example:</br>
 ![image](https://user-images.githubusercontent.com/58599984/138354202-f94f3efa-69eb-4b1e-9cfc-277235ad7187.png)
 
+## BGRSK2-Day2-Lab2 Design spec, Device data, Design Step
 
 
 
