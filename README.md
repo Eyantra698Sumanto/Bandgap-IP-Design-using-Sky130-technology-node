@@ -6,7 +6,7 @@ ________________________________________________________________________
 ## Theory Lec0 Opening Lecture
 ![image](https://user-images.githubusercontent.com/58599984/138240411-597c24cf-4b01-4ed2-a6d6-7b89185598bf.png)
 
-- Integrated Circuits need Linear rgulated voltage which are provided by LDO(Low-dropout linear regulators).</br>
+- Integrated Circuits need Linear rgulated voltage which are provided by LDO(Low-dropout linear regulators).
 - These LDO's provide regulated voltage independent of temperature, supply voltage and the process.
 - They have a temp. coeff. of 10-15ppm/ degree Celsius.
 - PSRR=40-60dB
