@@ -3,7 +3,7 @@
 This repo contains documentation of the "VSD Open Tutorial Bandgap IP Design using Sky130 technology node".
 ________________________________________________________________________
 # Day 1
-# Theory Lec0 Opening Lecture
+## Theory Lec0 Opening Lecture
 ![image](https://user-images.githubusercontent.com/58599984/138240411-597c24cf-4b01-4ed2-a6d6-7b89185598bf.png)
 
 - Integrated Circuits need Linear rgulated voltage which are provided by LDO(Low-dropout linear regulators).
@@ -17,7 +17,7 @@ ________________________________________________________________________
   * Base Emitter Voltage Referenced Circuit- Good Supply Rejection but temp. coef. needs to be improved.
   * Bandgap Reference- Best temp. coef and good sensitivity. Hence it is widely used.
 
-# BGRSK1-Day1-Theory Lec1 Introduction to BGR
+## BGRSK1-Day1-Theory Lec1 Introduction to BGR
 - Temperature, power supply and circuit changes independent voltage reference
 - Produces constant voltage of 1.2V(close band energy gap of silicon)
 - Why BGR?
@@ -58,7 +58,7 @@ ________________________________________________________________________
   + Self Biased Current Mirror Circuit
   + Refernce branch Circuit
   + Start Up circuit
-  
+## BGRSK1-Day1-Theory Lec2 CTAT Voltage generation Circuit 
 # References
 1.
 2. https://www.ti.com/power-management/linear-regulators-ldo/overview.html
