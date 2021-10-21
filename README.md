@@ -72,9 +72,9 @@ ________________________________________________________________________
 - Temperature coefficient = -1.88 mV/degree Kelvin
 ### CTAT Voltage Generation in various cases
 ![image](https://user-images.githubusercontent.com/58599984/138249308-7fdf5073-89a4-469c-8f93-f530ab6f1061.png)
-Case 1: Constant current and BJT units
-Case 2: Increasing the BJT units
-Case 3: Increasing Current
+#### Case 1: Constant current and BJT units
+#### Case 2: Increasing the BJT units
+#### Case 3: Increasing Current
 
 ## References
 1.
