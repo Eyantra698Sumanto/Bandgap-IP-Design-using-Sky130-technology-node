@@ -48,6 +48,16 @@ ________________________________________________________________________
        2. Easy to design
        3. Always Stable
    * Limitations
+       1. Low PSRR
+       2. Cascode design to reduce PSRR
+       3. Voltage head room issue
+       4. Need start-up circuit
+- BGR Compononents
+  + CTAT Voltage generation Circuit
+  + PTAT Voltage generation Circuit
+  + Self Biased Current Mirror Circuit
+  + Refernce branch Circuit
+  + Start Up circuit
   
 # References
 1.
