@@ -199,7 +199,8 @@ make
 make install
 ```
 To compare the netlist, type **netgen** in the terminal and run this command in the tkcon window:
-```lvs <name of prelayou netlist> <name of postlayout netlist> sky130A_setup.tcl
+```
+lvs <name of prelayou netlist> <name of postlayout netlist> sky130A_setup.tcl
 ```
 For example:
 ![image](https://user-images.githubusercontent.com/58599984/138354202-f94f3efa-69eb-4b1e-9cfc-277235ad7187.png)
