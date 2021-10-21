@@ -172,7 +172,7 @@ To setup skywater libraried follow these steps:
 ### Running Magic for layout
 Magic is an open source tool for layout design. For more details refer:</br>
 http://opencircuitdesign.com/magic/</br>
-Follow these steps to setup magic:
+Follow these steps to setup magic:</br>
 1. Download Skywater PDK by running following commands:
  ```git clone git://opencircuitdesign.com/open_pdks
 cd open_pdks
@@ -186,7 +186,7 @@ sudo ./configure
 sudo make
 sudo make install
 ```
-3. Run magic using the following command:
+3. Run magic using the following command:</br>
 ![image](https://user-images.githubusercontent.com/58599984/138350095-60eba5f1-0c0a-46fa-a8b8-da33ac5ced17.png)
 
 ### Running netgen for netlist comparision
@@ -200,9 +200,9 @@ make install
 ```
 To compare the netlist, type **netgen** in the terminal and run this command in the tkcon window:
 ```
-lvs <name of prelayou netlist> <name of postlayout netlist> sky130A_setup.tcl
+lvs <name of prelayout netlist> <name of postlayout netlist> sky130A_setup.tcl
 ```
-For example:
+For example:</br>
 ![image](https://user-images.githubusercontent.com/58599984/138354202-f94f3efa-69eb-4b1e-9cfc-277235ad7187.png)
 
 
