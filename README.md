@@ -136,6 +136,12 @@ ________________________________________________________________________
 ### Design of R2 Resistance
 ![image](https://user-images.githubusercontent.com/58599984/138257121-c384b9ea-7e97-4271-9331-0587bc8f207c.png)
 
+# BGRSK1-Day1-Theory Lec6 Start-up Circuit
+## Start Up Circuit Issue
+![image](https://user-images.githubusercontent.com/58599984/138257781-3c82b5b4-5bca-4198-a101-462a3c57c20f.png)
+
+## Start Up Circuit Design
+![image](https://user-images.githubusercontent.com/58599984/138257823-880e581a-920f-456b-a0ed-e14cbaaca989.png)
 
 
 
