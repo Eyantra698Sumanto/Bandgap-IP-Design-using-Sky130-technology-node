@@ -272,6 +272,28 @@ ngspice BGR.cir
 ![image](https://user-images.githubusercontent.com/58599984/138364706-0da853d7-9d10-4a19-8f2a-42b45154e4eb.png)
 ![image](https://user-images.githubusercontent.com/58599984/138364848-e6b84a86-f444-46ef-9cd9-d52d18a8dde8.png)
 ![image](https://user-images.githubusercontent.com/58599984/138364886-6367965e-8b3a-4c71-87b5-f8089c0cd7bd.png)
+### BGR using Current Mirror Simulation
+#### Nelist tt corner
+![image](https://user-images.githubusercontent.com/58599984/138432864-2179e521-fac8-41a6-8a2f-fdcdc43efbbd.png)
+#### Ngspice Simulation tt corner
+![image](https://user-images.githubusercontent.com/58599984/138433581-e5f30d09-4ede-4eb6-8eb3-33f044d50bbc.png)
+![image](https://user-images.githubusercontent.com/58599984/138433628-4ad4da04-fdfb-4fc5-80d7-cfa963e29905.png)
+#### Plots for Temperature Variation tt corner 
+![image](https://user-images.githubusercontent.com/58599984/138430194-a7c10db7-7723-4900-ac47-15f32c9c9eb8.png)
+#### Plots for Supply Variation tt corner
+![image](https://user-images.githubusercontent.com/58599984/138431684-a0632986-3046-4603-a928-c935f00b21c2.png)
+#### Plots for Transient tt corner
+![image](https://user-images.githubusercontent.com/58599984/138432573-231436a7-d3b8-43d1-9ac1-bd94861516df.png)
+#### Plots for Temperature Variation ss corner
+![image](https://user-images.githubusercontent.com/58599984/138435230-98978f06-4c3c-42ef-b5dd-b95e3e9b5a5f.png)
+
+#### Plots for Temperature Variation ff corner
+![image](https://user-images.githubusercontent.com/58599984/138434985-b2439171-1b30-44f5-9a79-101c50daa818.png)
+
+
+
+
+
 
 
 
