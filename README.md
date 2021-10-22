@@ -334,6 +334,8 @@ ngspice BGR.cir
 ### running ngspice
 ``` ngspice top_post_layout.spice
 ```
+![image](https://user-images.githubusercontent.com/58599984/138514770-a3e3ba43-0831-49f3-b330-7f564dafe565.png)
+
 
 
 
