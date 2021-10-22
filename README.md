@@ -224,7 +224,7 @@ https://skywater-pdk.readthedocs.io/en/latest/rules/device-details.html
 ### Bandgap Reference Circuit Design
 ![image](https://user-images.githubusercontent.com/58599984/138355263-e95d5a01-79f9-4755-9e46-674e89a46406.png)
 
-## BGRSK2-Day2-Lab 3-7 Prelayout Simulation
+## BGRSK2-Day2-Lab 3-8 Prelayout Simulation
 ### PTAT Simulation
 #### Netlist
 ![image](https://user-images.githubusercontent.com/58599984/138356895-49351c64-1547-42bf-8f5f-0834ffd122b0.png)
@@ -293,6 +293,44 @@ ngspice BGR.cir
 ![image](https://user-images.githubusercontent.com/58599984/138436290-98949659-35c3-41ee-a0d1-e6e130e2b6a6.png)
 ![image](https://user-images.githubusercontent.com/58599984/138436540-de239476-9e70-4165-8cda-54cba1c4bc66.png)
 
+## BGRSK2-Day2_Lab9-10 Layout
+### Layout of Resistor
+![image](https://user-images.githubusercontent.com/58599984/138467767-0bba96d8-a82e-4362-8649-9c5bcc0a6d16.png)
+### Layout of pnp
+![image](https://user-images.githubusercontent.com/58599984/138467480-243c40f0-9724-48ef-8bff-4b82fcd98a52.png)
+
+### Layout of nfet
+![image](https://user-images.githubusercontent.com/58599984/138466294-3df7e5ae-aa63-407f-81ed-7b5c4e61b553.png)
+![image](https://user-images.githubusercontent.com/58599984/138466923-877ec632-4abe-4af2-bbf6-296d8bc65ecb.png)
+
+### Layout of pfet
+![image](https://user-images.githubusercontent.com/58599984/138466616-243f8f72-faaa-4307-b4c0-f6faffbb3ede.png)
+### Layout of 16 nfets
+![image](https://user-images.githubusercontent.com/58599984/138468938-48f378f5-d78e-487d-a41a-8e5d015fa6e4.png)
+![image](https://user-images.githubusercontent.com/58599984/138469007-fb41b14d-83f2-4742-b675-e501fef75194.png)
+
+### Layout of 10 pfets
+![image](https://user-images.githubusercontent.com/58599984/138467128-9fb5a7b7-ef57-4a27-9a5d-685335f3ac5b.png)
+![image](https://user-images.githubusercontent.com/58599984/138467385-4f352a5d-b15e-4a2a-8b92-f2a8cc1f02fb.png)
+
+
+### Layout of 10 pnps
+![image](https://user-images.githubusercontent.com/58599984/138467592-17d7ea11-912c-42e8-ad5b-5aead18d741d.png)
+![image](https://user-images.githubusercontent.com/58599984/138467642-64f16844-406a-4c7a-ab65-468b3e795d69.png)
+
+### Layout of Resistor Bank
+![image](https://user-images.githubusercontent.com/58599984/138467856-0d3199b9-8129-499a-b612-06e8bc634b54.png)
+![image](https://user-images.githubusercontent.com/58599984/138467910-6788bf4d-c4ef-4e56-a95f-ee72786122c6.png)
+### Layout of startup nfet
+![image](https://user-images.githubusercontent.com/58599984/138468083-b3eb14cf-315f-414b-ba6a-243ea11ba69d.png)
+![image](https://user-images.githubusercontent.com/58599984/138468111-a1a61484-243d-4214-bc4f-8a3836e42a80.png)
+### Layout of top level BGR Circuit
+![image](https://user-images.githubusercontent.com/58599984/138468253-a60a1082-045b-45b7-b317-c7eab6d8eeaa.png)
+![image](https://user-images.githubusercontent.com/58599984/138468298-c44769fa-ee27-4565-bc5a-0845946bf946.png)
+![image](https://user-images.githubusercontent.com/58599984/138468418-cbc69762-fae1-43d5-85dd-65f6be30951d.png)
+
+
+
 
 
 
@@ -321,4 +359,5 @@ I would like to thank Mr. Kunal Ghosh, Mrs. Anagha Ghosh, Prof. Saroj Rout and P
 2. https://www.ti.com/power-management/linear-regulators-ldo/overview.html
 3. https://github.com/google/skywater-pdk
 4. https://skywater-pdk.readthedocs.io/en/latest/rules.html
-5. 
+5. https://github.com/RTimothyEdwards/netgen.git
+6. https://github.com/vsdip/vsdopen2021_bgr.git
