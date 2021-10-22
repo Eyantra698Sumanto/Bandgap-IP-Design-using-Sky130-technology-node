@@ -1,0 +1,244 @@
+timestamp 1634630016
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 2200000 3050000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use nfets nfets_0 1 0 618 0 1 14760
+use starternfet starternfet_0 1 0 5062 0 1 12712
+use pnp10 pnp10_0 1 0 1272 0 1 2564
+use resbank resbank_0 1 0 1198 0 1 9204
+use pfets pfets_0 1 0 68 0 1 17396
+port "vref" 2 -348 19172 -348 19172 m1
+port "vdd" 1 -870 19176 -870 19176 m1
+port "vdd" 1 -850 19176 -850 19176 m1
+port "gnd" 3 9664 19152 9664 19152 m1
+node "m1_9082_n14#" 2 1853.2 9082 -14 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 758000 7980 0 0 0 0 0 0 0 0 0 0
+node "li_9016_12#" 219 4923.99 9016 12 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 380460 5496 758000 7980 0 0 0 0 0 0 0 0 0 0
+node "qp2" 422 26137.7 1206 5576 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1347600 13876 2777272 28628 3486752 17188 0 0 0 0 0 0 0 0
+node "qp3" 27 10861 1232 5838 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32100 728 2379600 24596 3060684 14704 0 0 0 0 0 0 0 0
+node "li_1206_8736#" 411 5062.43 1206 8736 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1347600 13876 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_1242_8992#" 18 228.397 1242 8992 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31672 724 0 0 0 0 0 0 0 0 0 0 0 0
+node "rp1" 85 13109.7 3358 8970 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 86400 1664 1916476 20368 2148800 22288 0 0 0 0 0 0 0 0
+node "li_4618_12880#" 40 492.389 4618 12880 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 95880 1468 0 0 0 0 0 0 0 0 0 0 0 0
+node "qp1" 26 12821.1 -202 16152 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 46800 868 3320000 34000 2959244 12792 0 0 0 0 0 0 0 0
+node "net6" 541 13076.1 68 16960 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1638532 17320 1446000 15660 712400 7924 0 0 0 0 0 0 0 0
+node "net2" 80 17032.3 4480 12416 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100008 1772 1518800 16388 1687600 17676 0 0 0 0 0 0 0 0
+node "vref" 76 5976.78 -348 19172 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 57008 1332 1578000 16980 507600 5876 0 0 0 0 0 0 0 0
+node "net1" 76 2814.39 -174 16424 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 43268 1180 641600 7616 331600 4116 0 0 0 0 0 0 0 0
+node "vdd" 70 12077.9 -850 19176 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 195200 2352 4221800 38820 0 0 0 0 0 0 0 0 0 0
+node "w_68_18468#" 1789 114 68 18468 nw 0 0 0 0 38000 780 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "gnd" 0 0 9664 19152 m1 0 0 18564 1636 0 0 0 0 0 0 12177600 121776 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13371540 133612 3072068 31124 0 0 0 0 0 0 0 0 0 0
+cap "qp2" "net2" 250
+cap "qp1" "net1" 1461.17
+cap "vref" "qp1" 5854.54
+cap "qp3" "qp2" 113.903
+cap "qp3" "qp1" 13884.6
+cap "rp1" "m1_9082_n14#" 234.915
+cap "vref" "net1" 5388.63
+cap "qp2" "rp1" 9688
+cap "net6" "net2" 10118.6
+cap "qp3" "vref" 225
+cap "rp1" "net2" 7560.85
+cap "qp1" "vdd" 18411.8
+cap "rp1" "li_1206_8736#" 269.824
+cap "net6" "rp1" 774.39
+cap "vdd" "net1" 3434
+cap "m1_9082_n14#" "li_9016_12#" 1410.71
+cap "vref" "vdd" 1509.61
+cap "vref" "w_68_18468#" 35.15
+cap "qp2" "m1_9082_n14#" 5851.95
+cap "li_1242_8992#" "li_1206_8736#" 126.107
+cap "qp2" "li_9016_12#" 5065.35
+cap "qp3" "vdd" 1870.07
+subcap "li_9016_12#" -387.338
+subcap "m1_9082_n14#" -1240.88
+cap "pnp10_0/pnpt1_23/Emitter" "m1_9082_n14#" 2.84217e-14
+cap "qp3" "pnp10_0/pnpt1_25/Base" 351.917
+cap "qp3" "pnp10_0/pnpt1_5/Emitter" 324.11
+cap "qp3" "pnp10_0/gnd" -2000.43
+cap "pnp10_0/gnd" "qp3" 485.26
+cap "pnp10_0/pnpt1_5/Emitter" "qp3" -497.82
+cap "pnp10_0/vq3" "pnp10_0/pnpt1_6/Collector" 742.642
+cap "pnp10_0/vq3" "pnp10_0/pnpt1_6/Emitter" -3842.31
+cap "pnp10_0/pnpt1_9/Collector" "pnp10_0/pnpt1_9/Emitter" 2332.09
+cap "m1_9082_n14#" "pnp10_0/pnpt1_22/Emitter" -35
+cap "qp2" "pnp10_0/pnpt1_22/Emitter" -6794.67
+cap "pnp10_0/pnpt1_25/Base" "qp1" 351.917
+cap "qp1" "pnp10_0/gnd" -2000.43
+cap "qp1" "pnp10_0/pnpt1_0/Emitter" 324.11
+cap "qp1" "pnp10_0/gnd" 485.26
+cap "pnp10_0/pnpt1_0/Emitter" "qp1" -497.82
+cap "pnp10_0/vq1" "pnp10_0/pnpt1_1/Emitter" -3842.31
+cap "pnp10_0/vq1" "pnp10_0/pnpt1_6/Collector" 742.642
+cap "pnp10_0/pnpt1_9/Collector" "pnp10_0/pnpt1_4/Emitter" 2332.09
+cap "m1_9082_n14#" "pnp10_0/pnpt1_22/Collector" -35
+cap "pnp10_0/pnpt1_22/Collector" "qp2" -6654.32
+subcap "qp2" -26226.2
+cap "qp2" "pnp10_0/pnpt1_21/Collector" 1.42109e-14
+cap "pnp10_0/pnpt1_21/Collector" "rp1" 5.68434e-14
+subcap "qp2" -25777
+subcap "qp3" -10025
+cap "resbank_0/qp3" "pnp10_0/pnpt1_15/Collector" 256
+cap "resbank_0/qp3" "resbank_0/qp2" -113.903
+subcap "qp3" -8675.9
+cap "resbank_0/qp2" "pnp10_0/pnpt1_19/Collector" 256
+subcap "li_1206_8736#" -4701.67
+cap "resbank_0/a_2166_n1148#" "resbank_0/rp1" -126.107
+subcap "rp1" -12506.3
+subcap "rp1" -11650.5
+cap "resbank_0/rp1" "resbank_0/li_2696_n234#" 122.32
+cap "resbank_0/rp1" "resbank_0/a_2166_n1148#" 98.1176
+cap "resbank_0/res1p41_7/a_0_n432#" "rp1" 140.94
+cap "resbank_0/res1p41_21/a_0_1560#" "rp1" 473.88
+cap "resbank_0/res1p41_9/a_0_n432#" "rp1" 194.52
+cap "resbank_0/res1p41_24/a_0_1560#" "rp1" 439.04
+cap "resbank_0/gnd" "rp1" 256
+cap "resbank_0/li_2696_n234#" "rp1" -29.22
+cap "resbank_0/a_4312_1992#" "nfets_0/net2" 22.5789
+cap "nfets_0/rp1" "resbank_0/gnd" 39.2961
+cap "resbank_0/vref" "resbank_0/gnd" 256
+cap "nfets_0/net2" "resbank_0/gnd" 186.656
+cap "resbank_0/gnd" "nfets_0/rp1" 75.9868
+cap "resbank_0/gnd" "nfets_0/net2" 360.938
+cap "nfets_0/net2" "resbank_0/res1p41_4/a_0_1560#" 75.9868
+subcap "net2" -17753.5
+cap "nfets_0/net2" "resbank_0/a_4312_1992#" 79.5395
+cap "nfets_0/net2" "resbank_0/gnd" 360.938
+cap "nfets_0/rp1" "resbank_0/gnd" 75.9868
+subcap "net2" -17339.3
+cap "resbank_0/a_4312_1992#" "resbank_0/gnd" 45.375
+cap "nfets_0/rp1" "resbank_0/gnd" 10.6382
+cap "nfets_0/net2" "resbank_0/gnd" 50.0156
+cap "nfets_0/net2" "resbank_0/a_4312_1992#" 10.5296
+cap "resbank_0/gnd" "resbank_0/a_4312_1992#" 61.4362
+cap "resbank_0/gnd" "resbank_0/a_4312_1992#" 31.6835
+cap "nfets_0/gnd" "nfets_0/rp1" 39.2961
+cap "nfets_0/gnd" "nfets_0/net2" 186.656
+cap "resbank_0/a_4312_1992#" "nfets_0/net2" 22.5789
+cap "resbank_0/gnd" "nfets_0/rp1" 75.9868
+cap "nfets_0/net2" "resbank_0/gnd" 360.938
+cap "nfets_0/net2" "resbank_0/a_4312_1992#" 75.9868
+subcap "net2" -16061.3
+cap "nfets_0/gnd" "nfets_0/net2" 361.839
+cap "nfets_0/rp1" "nfets_0/gnd" 77.6098
+cap "resbank_0/a_4312_1992#" "nfets_0/net2" 79.5395
+subcap "net2" -16550.6
+cap "nfets_0/gnd" "resbank_0/a_4312_1992#" 45.375
+cap "nfets_0/rp1" "nfets_0/gnd" 848.806
+cap "nfets_0/rp1" "starternfet_0/nfet1_0/a_0_n26#" 237.19
+cap "nfets_0/gnd" "nfets_0/net2" 777.918
+cap "nfets_0/net2" "resbank_0/a_4312_1992#" 10.5296
+cap "nfets_0/rp1" "nfets_0/net2" -67.1
+cap "starternfet_0/nfet1_1/a_0_n26#" "rp1" 216.982
+cap "rp1" "starternfet_0/nfet1_0/a_0_n26#" 102.234
+cap "resbank_0/gnd" "resbank_0/a_4312_1992#" 61.4362
+cap "resbank_0/gnd" "rp1" 368.47
+cap "resbank_0/gnd" "net2" 496.15
+cap "resbank_0/a_4312_1992#" "starternfet_0/gnd" 31.6835
+cap "starternfet_0/net6" "starternfet_0/gnd" 275.08
+cap "net2" "starternfet_0/gnd" 304.917
+cap "rp1" "starternfet_0/net6" 122.442
+cap "rp1" "starternfet_0/gnd" 337.37
+cap "vref" "nfets_0/net1" 98.6842
+subcap "qp1" -11501.1
+subcap "net1" -2181.59
+cap "vref" "nfets_0/net1" 184.211
+cap "pfets_0/vdd" "nfets_0/qp1" 17.2984
+cap "nfets_0/net1" "nfets_0/qp1" 58.447
+subcap "net1" -2543.26
+cap "pfets_0/vdd" "nfets_0/qp1" 62.0968
+cap "nfets_0/qp1" "pfets_0/vdd" 62.0968
+cap "pfets_0/vdd" "nfets_0/qp1" 62.0968
+cap "nfets_0/qp1" "pfets_0/vdd" 8.69355
+subcap "qp1" -13655.3
+subcap "net6" -12887.1
+subcap "net1" -2020.86
+cap "nfets_0/qp1" "pfets_0/vdd" 17.2984
+cap "pfets_0/vdd" "nfets_0/net1" 97.5
+cap "pfets_0/net6" "nfets_0/net1" 19.6793
+cap "pfets_0/net6" "vref" 125.339
+cap "nfets_0/qp1" "nfets_0/net1" -14.4588
+cap "nfets_0/net1" "vref" 6.05263
+subcap "net6" -12481.3
+subcap "net1" -2530.31
+cap "nfets_0/net1" "pfets_0/net6" 125.543
+cap "nfets_0/qp1" "pfets_0/vdd" 62.0968
+cap "nfets_0/net1" "pfets_0/vdd" 350
+cap "nfets_0/net1" "pfets_0/vdd" 350
+cap "nfets_0/qp1" "pfets_0/vdd" 62.0968
+cap "nfets_0/net1" "pfets_0/net6" 125.543
+cap "nfets_0/net1" "pfets_0/vdd" 350
+cap "pfets_0/vdd" "nfets_0/qp1" 62.0968
+cap "nfets_0/net1" "pfets_0/net6" 125.543
+cap "pfets_0/vdd" "nfets_0/net1" 49
+cap "nfets_0/net1" "pfets_0/net6" 17.5761
+cap "pfets_0/vdd" "nfets_0/qp1" 8.69355
+cap "pfets_0/net2" "pfets_0/vdd" 243.42
+cap "pfets_0/net2" "pfets_0/vdd" 11.4
+cap "pfets_0/net2" "pfets_0/net6" -330.817
+cap "pfets_0/vdd" "pfets_0/net6" 269.68
+cap "pfets_0/net6" "pfets_0/net1" 7.94118
+cap "pfets_0/vdd" "net2" 42.67
+cap "pfets_0/net6" "net2" 205.325
+subcap "vref" -5023.86
+cap "pfets_0/net1" "pfets_0/vref" -66
+cap "pfets_0/net1" "pfets_0/pfet_0/a_n60_0#" 7.94118
+cap "pfets_0/pfet_0/a_n60_0#" "pfets_0/vref" 121.78
+cap "gnd" "pfets_0/vdd" 82.5
+cap "pfets_0/net1" "gnd" 3.62567
+cap "pfets_0/net1" "pfets_0/vdd" 269.68
+cap "pfets_0/vref" "pfets_0/vdd" 241.19
+cap "gnd" "pfets_0/vdd" 607.895
+cap "pfets_0/vref" "pfets_0/net1" -7
+cap "pfets_0/vdd" "pfets_0/vref" -18.6442
+cap "pfets_0/vdd" "pfets_0/net1" -11.9842
+cap "gnd" "pfets_0/net1" 146.734
+cap "gnd" "pfets_0/vdd" 607.895
+cap "gnd" "pfets_0/pfet_5/a_n60_0#" 148.077
+cap "pfets_0/vdd" "gnd" 607.895
+cap "pfets_0/net1" "gnd" 148.077
+cap "gnd" "pfets_0/net1" 148.077
+cap "pfets_0/vdd" "gnd" 607.895
+cap "gnd" "pfets_0/vdd" 607.895
+cap "gnd" "pfets_0/net1" 148.077
+cap "gnd" "pfets_0/vdd" 448.974
+cap "gnd" "pfets_0/net1" 84.4038
+subcap "vref" -5998.88
+merge "pfets_0/vref" "resbank_0/vref" -3936.86 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -112592 -1332 -1086000 -11200 0 0 0 0 0 0 0 0 0 0
+merge "resbank_0/vref" "vref"
+merge "resbank_0/a_2166_n1148#" "li_1206_8736#" -5648.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1492000 -15520 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pfets_0/SUB" "starternfet_0/gnd" -11750.3 0 0 177126 -1632 0 0 0 0 0 0 -883564 -20232 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2905334 -28186 -121584 -2562 0 0 0 0 0 0 0 0 0 0
+merge "starternfet_0/gnd" "li_4618_12880#"
+merge "li_4618_12880#" "nfets_0/gnd"
+merge "nfets_0/gnd" "pnp10_0/pnpt1_20/Collector"
+merge "pnp10_0/pnpt1_20/Collector" "pnp10_0/pnpt1_19/Collector"
+merge "pnp10_0/pnpt1_19/Collector" "pnp10_0/pnpt1_21/Collector"
+merge "pnp10_0/pnpt1_21/Collector" "pnp10_0/pnpt1_4/Collector"
+merge "pnp10_0/pnpt1_4/Collector" "resbank_0/gnd"
+merge "resbank_0/gnd" "pnp10_0/pnpt1_22/Collector"
+merge "pnp10_0/pnpt1_22/Collector" "pnp10_0/pnpt1_22/Emitter"
+merge "pnp10_0/pnpt1_22/Emitter" "pnp10_0/pnpt1_9/Collector"
+merge "pnp10_0/pnpt1_9/Collector" "pnp10_0/pnpt1_23/Emitter"
+merge "pnp10_0/pnpt1_23/Emitter" "pnp10_0/pnpt1_14/Emitter"
+merge "pnp10_0/pnpt1_14/Emitter" "li_9016_12#"
+merge "li_9016_12#" "pnp10_0/w_6430_98#"
+merge "pnp10_0/w_6430_98#" "gnd"
+merge "pfets_0/net6" "starternfet_0/net6" -9158.58 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1541652 -17320 -469356 -7118 -146640 -2836 0 0 0 0 0 0 0 0
+merge "starternfet_0/net6" "net6"
+merge "nfets_0/rp1" "resbank_0/rp1" -5217.58 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -466016 -2388 -82372 -1334 1195918 -15562 0 0 0 0 0 0 0 0
+merge "resbank_0/rp1" "rp1"
+merge "rp1" "li_1242_8992#"
+merge "nfets_0/qp1" "pnp10_0/vq1" -1903.85 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -463608 -868 -470085 -7891 -1948058 -8656 0 0 0 0 0 0 0 0
+merge "pnp10_0/vq1" "qp1"
+merge "resbank_0/qp3" "pnp10_0/vq3" 439.901 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -90600 -728 -713981 -9035 1232848 -2682 0 0 0 0 0 0 0 0
+merge "pnp10_0/vq3" "qp3"
+merge "pfets_0/net1" "nfets_0/net1" -556.922 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -142840 -1180 20570 0 0 0 0 0 0 0 0 0 0 0
+merge "nfets_0/net1" "net1"
+merge "pfets_0/net2" "nfets_0/net2" -5708.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -355908 -1772 -337612 -5284 -950178 -11464 0 0 0 0 0 0 0 0
+merge "nfets_0/net2" "net2"
+merge "resbank_0/qp2" "pnp10_0/pnpt1_4/Emitter" -14037.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 202140 -13876 -1126679 -13339 1499376 -6274 0 0 0 0 0 0 0 0
+merge "pnp10_0/pnpt1_4/Emitter" "pnp10_0/pnpt1_9/Emitter"
+merge "pnp10_0/pnpt1_9/Emitter" "qp2"
+merge "pfets_0/vdd" "vdd" -580.323 0 0 0 0 -38000 -780 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -265636 -800 0 0 0 0 0 0 0 0 0 0 0 0
+merge "vdd" "w_68_18468#"

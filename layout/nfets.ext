@@ -1,0 +1,351 @@
+timestamp 1634540517
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 2200000 3050000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use nfet nfet_31 1 0 -460 0 1 -1554
+use nfet nfet_30 1 0 -200 0 1 -1554
+use nfet nfet_9 1 0 320 0 1 -1554
+use nfet nfet_8 1 0 60 0 1 -1554
+use nfet nfet_10 1 0 580 0 1 -1554
+use nfet nfet_11 1 0 840 0 1 -1554
+use nfet nfet_12 1 0 1100 0 1 -1554
+use nfet nfet_14 1 0 1620 0 1 -1554
+use nfet nfet_13 1 0 1360 0 1 -1554
+use nfet nfet_15 1 0 1880 0 1 -1554
+use nfet nfet_21 1 0 2400 0 1 -1554
+use nfet nfet_20 1 0 2140 0 1 -1554
+use nfet nfet_22 1 0 2660 0 1 -1554
+use nfet nfet_23 1 0 2920 0 1 -1554
+use nfet nfet_26 1 0 3180 0 1 -1554
+use nfet nfet_27 1 0 3440 0 1 -1554
+use nfet nfet_29 1 0 -460 0 1 26
+use nfet nfet_28 1 0 -200 0 1 26
+use nfet nfet_0 1 0 60 0 1 26
+use nfet nfet_1 1 0 320 0 1 26
+use nfet nfet_2 1 0 580 0 1 26
+use nfet nfet_3 1 0 840 0 1 26
+use nfet nfet_4 1 0 1100 0 1 26
+use nfet nfet_5 1 0 1360 0 1 26
+use nfet nfet_6 1 0 1620 0 1 26
+use nfet nfet_7 1 0 1880 0 1 26
+use nfet nfet_17 1 0 2400 0 1 26
+use nfet nfet_16 1 0 2140 0 1 26
+use nfet nfet_18 1 0 2660 0 1 26
+use nfet nfet_19 1 0 2920 0 1 26
+use nfet nfet_24 1 0 3180 0 1 26
+use nfet nfet_25 1 0 3440 0 1 26
+port "net2" 5 -748 -2258 -748 -2258 li
+port "rp1" 4 -734 -2046 -734 -2046 li
+port "net1" 1 -774 1752 -774 1752 li
+port "qp1" 2 -756 1486 -756 1486 li
+port "gnd" 3 -734 -1784 -734 -1784 li
+node "net2" 3178 8146.19 -748 -2258 li 0 0 0 0 0 0 0 0 48000 2096 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1063984 15464 374752 14476 0 0 0 0 0 0 0 0 0 0
+node "rp1" 9089 12316.5 -734 -2046 li 0 0 0 0 0 0 0 0 144000 6288 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1220208 20936 400992 17188 0 0 0 0 0 0 0 0 0 0
+node "net1" 5284 28075.8 -774 1752 li 0 0 0 0 0 0 0 0 48000 2096 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 844800 11648 0 0 1907984 24304 638272 23500 0 0 0 0 0 0 0 0 0 0
+node "qp1" 9089 12316.5 -756 1486 li 0 0 0 0 0 0 0 0 144000 6288 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1220208 20936 400992 17188 0 0 0 0 0 0 0 0 0 0
+substrate "gnd" 0 0 -734 -1784 li 0 0 0 0 0 0 0 0 60000 2120 3060800 30608 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 844800 11648 0 0 3806432 48736 0 0 0 0 0 0 0 0 0 0 0 0
+cap "net2" "net1" 1158.14
+cap "rp1" "net2" 6759.72
+cap "rp1" "net1" 3191.49
+cap "qp1" "net2" 1150.41
+cap "qp1" "net1" 9036.19
+cap "rp1" "qp1" 311.453
+subcap "net2" -7218.6
+subcap "rp1" -11261.8
+subcap "gnd" -14613
+cap "nfet_30/a_200_0#" "nfet_9/a_n60_0#" -168.957
+cap "nfet_8/a_0_n26#" "nfet_10/a_0_n26#" 0.934375
+cap "nfet_11/a_0_n26#" "nfet_9/a_0_n26#" 0.934375
+cap "nfet_10/a_0_n26#" "nfet_9/a_0_n26#" 4.98333
+cap "nfet_8/a_0_n26#" "nfet_31/a_0_n26#" 1.86875
+cap "nfet_8/a_0_n26#" "nfet_9/a_0_n26#" 9.96667
+cap "nfet_30/a_0_n26#" "nfet_8/a_0_n26#" 9.96667
+cap "nfet_30/a_0_n26#" "nfet_31/a_0_n26#" 9.96667
+cap "nfet_30/a_0_n26#" "nfet_9/a_0_n26#" 1.86875
+cap "nfet_31/a_n60_0#" "nfet_9/a_n60_0#" 1.29159
+cap "nfet_31/a_n60_0#" "nfet_30/a_200_0#" 1.29159
+cap "nfet_15/a_0_n26#" "nfet_13/a_0_n26#" 1.86875
+cap "nfet_14/a_0_n26#" "nfet_20/a_0_n26#" 0.934375
+cap "nfet_11/a_200_0#" "nfet_10/a_200_0#" 9.42857
+cap "nfet_14/a_0_n26#" "nfet_15/a_0_n26#" 9.96667
+cap "nfet_15/a_0_n26#" "nfet_20/a_0_n26#" 1.84568
+cap "nfet_13/a_0_n26#" "nfet_12/a_200_0#" 336.785
+cap "nfet_14/a_0_n26#" "net2" 336.785
+cap "nfet_9/a_0_n26#" "nfet_10/a_0_n26#" 4.98333
+cap "nfet_9/a_0_n26#" "nfet_11/a_0_n26#" 0.934375
+cap "nfet_14/a_n60_0#" "nfet_10/a_200_0#" 9.42857
+cap "nfet_10/a_0_n26#" "nfet_11/a_0_n26#" 9.96667
+cap "nfet_11/a_0_n26#" "nfet_13/a_0_n26#" 1.86875
+cap "nfet_12/a_0_n26#" "nfet_10/a_0_n26#" 1.86875
+cap "nfet_11/a_200_0#" "nfet_9/a_200_0#" 3.2459
+cap "nfet_12/a_0_n26#" "nfet_11/a_0_n26#" 9.96667
+cap "nfet_8/a_0_n26#" "nfet_10/a_0_n26#" 0.934375
+cap "nfet_12/a_200_0#" "nfet_9/a_200_0#" 510.718
+cap "nfet_12/a_0_n26#" "nfet_13/a_0_n26#" 9.96667
+cap "nfet_14/a_0_n26#" "nfet_13/a_0_n26#" 9.96667
+cap "nfet_14/a_0_n26#" "nfet_12/a_0_n26#" 1.86875
+cap "nfet_14/a_n60_0#" "nfet_9/a_200_0#" 3.2459
+cap "nfet_14/a_n60_0#" "nfet_12/a_200_0#" 31.2632
+cap "nfet_22/a_0_n26#" "nfet_26/a_0_n26#" 1.86875
+cap "nfet_21/a_0_n26#" "nfet_20/a_0_n26#" 9.96667
+cap "nfet_23/a_0_n26#" "nfet_22/a_0_n26#" 9.96667
+cap "nfet_15/a_200_0#" "nfet_21/a_200_0#" 3.2459
+cap "nfet_15/a_0_n26#" "nfet_20/a_0_n26#" 9.96667
+cap "nfet_21/a_0_n26#" "nfet_22/a_0_n26#" 9.96667
+cap "nfet_14/a_0_n26#" "nfet_20/a_0_n26#" 0.934375
+cap "nfet_23/a_0_n26#" "nfet_26/a_0_n26#" 9.96667
+cap "nfet_27/a_0_n26#" "nfet_26/a_0_n26#" 4.82258
+cap "nfet_23/a_0_n26#" "nfet_27/a_0_n26#" 0.934375
+cap "nfet_21/a_200_0#" "nfet_22/a_200_0#" -175.018
+cap "nfet_23/a_0_n26#" "nfet_21/a_0_n26#" 1.86875
+cap "nfet_21/a_200_0#" "nfet_21/a_n60_0#" 2.27374e-13
+cap "nfet_22/a_0_n26#" "nfet_20/a_0_n26#" 1.86875
+cap "nfet_21/a_0_n26#" "nfet_15/a_0_n26#" 1.86875
+cap "nfet_15/a_200_0#" "nfet_21/a_n60_0#" 9.42857
+cap "nfet_14/a_0_n26#" "nfet_15/a_0_n26#" 1.89241
+cap "nfet_27/a_0_n26#" "nfet_23/a_0_n26#" 0.934375
+cap "nfet_26/a_0_n26#" "nfet_23/a_0_n26#" 1.15891
+cap "nfet_27/a_0_n26#" "nfet_26/a_0_n26#" 9.96667
+cap "nfet_9/a_200_0#" "nfet_9/a_n60_0#" -56.8661
+cap "nfet_30/a_200_0#" "nfet_9/a_n60_0#" -56.8661
+cap "nfet_28/a_200_0#" "nfet_31/a_0_n26#" 5.58271
+cap "nfet_0/a_200_0#" "nfet_1/a_200_0#" -58.0446
+cap "nfet_29/a_200_0#" "nfet_31/a_0_n26#" 57.9401
+cap "nfet_9/a_0_n26#" "nfet_30/a_200_0#" 0.595489
+cap "nfet_31/a_n60_0#" "nfet_31/a_0_n26#" 140.839
+cap "nfet_9/a_0_n26#" "nfet_31/a_200_0#" 6.25263
+cap "nfet_9/a_0_n26#" "nfet_29/a_n60_0#" 206.387
+cap "nfet_9/a_0_n26#" "nfet_0/a_200_0#" 0.595489
+cap "nfet_31/a_0_n26#" "nfet_9/a_n60_0#" 5.58271
+cap "nfet_9/a_0_n26#" "nfet_28/a_200_0#" 0.595489
+cap "nfet_9/a_0_n26#" "nfet_31/a_0_n26#" 146.722
+cap "nfet_9/a_0_n26#" "nfet_29/a_200_0#" 6.25263
+cap "nfet_31/a_0_n26#" "nfet_30/a_200_0#" 5.58271
+cap "nfet_28/a_200_0#" "nfet_0/a_200_0#" -58.0446
+cap "nfet_31/a_n60_0#" "nfet_9/a_0_n26#" 6.25263
+cap "nfet_31/a_0_n26#" "nfet_31/a_200_0#" 57.2304
+cap "nfet_31/a_0_n26#" "nfet_29/a_n60_0#" 143.196
+cap "nfet_9/a_0_n26#" "nfet_9/a_n60_0#" 0.595489
+cap "nfet_31/a_0_n26#" "nfet_0/a_200_0#" 5.58271
+cap "nfet_10/a_200_0#" "nfet_9/a_0_n26#" 6.25263
+cap "nfet_4/a_200_0#" "nfet_9/a_0_n26#" 6.25263
+cap "nfet_2/a_200_0#" "nfet_10/a_0_n26#" 21.2143
+cap "nfet_9/a_0_n26#" "net2" 456.878
+cap "nfet_11/a_200_0#" "nfet_12/a_200_0#" 21.2143
+cap "nfet_9/a_0_n26#" "nfet_12/a_200_0#" 6.25263
+cap "nfet_9/a_0_n26#" "nfet_10/a_0_n26#" 41.1125
+cap "nfet_6/a_200_0#" "nfet_9/a_0_n26#" 6.25263
+cap "nfet_6/a_200_0#" "nfet_11/a_200_0#" 366.646
+cap "nfet_10/a_200_0#" "nfet_10/a_0_n26#" 21.2143
+cap "net1" "nfet_9/a_0_n26#" 456.878
+cap "nfet_4/a_200_0#" "nfet_3/a_200_0#" 21.2143
+cap "nfet_3/a_200_0#" "nfet_12/a_200_0#" 359.682
+cap "nfet_6/a_200_0#" "nfet_3/a_200_0#" 21.2143
+cap "nfet_20/a_0_n26#" "nfet_9/a_0_n26#" 5.56011
+cap "nfet_9/a_0_n26#" "nfet_2/a_200_0#" 6.25263
+cap "nfet_14/a_200_0#" "nfet_11/a_200_0#" 21.2143
+cap "nfet_9/a_0_n26#" "nfet_14/a_200_0#" 6.25263
+cap "nfet_19/a_200_0#" "nfet_18/a_200_0#" -60.9911
+cap "nfet_21/a_n60_0#" "nfet_21/a_0_n26#" 21.2143
+cap "nfet_17/a_200_0#" "nfet_18/a_200_0#" -60.9911
+cap "nfet_17/a_n60_0#" "nfet_14/a_0_n26#" 6.25263
+cap "nfet_21/a_0_n26#" "nfet_14/a_0_n26#" 78.4875
+cap "nfet_23/a_200_0#" "nfet_22/a_200_0#" -59.8125
+cap "nfet_21/a_200_0#" "nfet_22/a_200_0#" -59.8125
+cap "nfet_21/a_n60_0#" "nfet_14/a_0_n26#" 6.25263
+cap "nfet_17/a_n60_0#" "nfet_21/a_0_n26#" 21.2143
+cap "nfet_27/a_200_0#" "nfet_26/a_0_n26#" 140.839
+cap "nfet_26/a_200_0#" "nfet_26/a_0_n26#" 57.2304
+cap "nfet_23/a_0_n26#" "nfet_27/a_200_0#" 6.25263
+cap "nfet_23/a_0_n26#" "nfet_26/a_200_0#" 6.25263
+cap "nfet_24/a_200_0#" "nfet_26/a_0_n26#" 57.9401
+cap "nfet_23/a_0_n26#" "nfet_26/a_0_n26#" 109.797
+cap "nfet_23/a_0_n26#" "nfet_24/a_200_0#" 6.25263
+subcap "qp1" -11262.8
+cap "nfet_3/a_0_n26#" "nfet_1/a_0_n26#" 0.934375
+cap "nfet_1/a_0_n26#" "nfet_0/a_0_n26#" 9.96667
+cap "nfet_28/a_0_n26#" "nfet_0/a_0_n26#" 9.96667
+cap "nfet_29/a_0_n26#" "nfet_0/a_0_n26#" 1.86875
+cap "nfet_28/a_200_0#" "nfet_0/a_200_0#" -166.6
+cap "nfet_2/a_0_n26#" "nfet_0/a_0_n26#" 0.934375
+cap "nfet_28/a_0_n26#" "nfet_1/a_0_n26#" 1.86875
+cap "nfet_29/a_0_n26#" "nfet_0/a_200_0#" 146.03
+cap "nfet_28/a_0_n26#" "nfet_29/a_0_n26#" 9.96667
+cap "nfet_2/a_0_n26#" "nfet_1/a_0_n26#" 4.98333
+cap "nfet_29/a_n60_0#" "nfet_0/a_200_0#" 269.357
+cap "nfet_28/a_200_0#" "nfet_29/a_n60_0#" 1.29159
+cap "nfet_2/a_200_0#" "nfet_1/a_200_0#" -2.27374e-13
+cap "nfet_6/a_0_n26#" "nfet_4/a_0_n26#" 1.86875
+cap "nfet_7/a_0_n26#" "nfet_16/a_0_n26#" 1.84568
+cap "nfet_2/a_0_n26#" "nfet_3/a_0_n26#" 9.96667
+cap "nfet_2/a_0_n26#" "nfet_1/a_0_n26#" 4.98333
+cap "nfet_1/a_200_0#" "nfet_5/a_200_0#" 3.2459
+cap "nfet_1/a_200_0#" "nfet_4/a_200_0#" 503.754
+cap "nfet_1/a_200_0#" "nfet_3/a_200_0#" 3.2459
+cap "nfet_4/a_0_n26#" "nfet_3/a_0_n26#" 9.96667
+cap "nfet_6/a_0_n26#" "nfet_5/a_0_n26#" 9.96667
+cap "nfet_6/a_0_n26#" "nfet_7/a_0_n26#" 9.96667
+cap "nfet_4/a_200_0#" "nfet_6/a_0_n26#" 332.503
+cap "nfet_4/a_0_n26#" "nfet_5/a_0_n26#" 9.96667
+cap "nfet_3/a_0_n26#" "nfet_1/a_0_n26#" 0.934375
+cap "nfet_6/a_0_n26#" "nfet_16/a_0_n26#" 0.934375
+cap "net1" "nfet_5/a_0_n26#" 332.503
+cap "nfet_3/a_0_n26#" "nfet_5/a_0_n26#" 1.86875
+cap "nfet_2/a_200_0#" "nfet_5/a_200_0#" 9.42857
+cap "nfet_7/a_0_n26#" "nfet_5/a_0_n26#" 1.86875
+cap "nfet_4/a_200_0#" "nfet_5/a_200_0#" 31.2632
+cap "nfet_2/a_0_n26#" "nfet_4/a_0_n26#" 1.86875
+cap "nfet_2/a_200_0#" "nfet_3/a_200_0#" 9.42857
+cap "nfet_0/a_0_n26#" "nfet_2/a_0_n26#" 0.934375
+cap "nfet_19/a_0_n26#" "nfet_17/a_0_n26#" 1.86875
+cap "nfet_17/a_200_0#" "nfet_7/a_200_0#" 3.2459
+cap "nfet_16/a_0_n26#" "nfet_7/a_0_n26#" 9.96667
+cap "nfet_7/a_0_n26#" "nfet_6/a_0_n26#" 1.89241
+cap "nfet_17/a_n60_0#" "nfet_7/a_200_0#" 9.42857
+cap "nfet_17/a_0_n26#" "nfet_7/a_0_n26#" 1.86875
+cap "nfet_16/a_0_n26#" "nfet_6/a_0_n26#" 0.934375
+cap "nfet_19/a_0_n26#" "nfet_18/a_0_n26#" 9.96667
+cap "nfet_17/a_n60_0#" "nfet_17/a_200_0#" -4.54747e-13
+cap "nfet_17/a_0_n26#" "nfet_16/a_0_n26#" 9.96667
+cap "nfet_24/a_0_n26#" "nfet_18/a_0_n26#" 1.86875
+cap "nfet_16/a_0_n26#" "nfet_18/a_0_n26#" 1.86875
+cap "nfet_19/a_0_n26#" "nfet_25/a_0_n26#" 0.934375
+cap "nfet_17/a_0_n26#" "nfet_18/a_0_n26#" 9.96667
+cap "nfet_19/a_0_n26#" "nfet_24/a_0_n26#" 9.96667
+cap "nfet_17/a_200_0#" "nfet_18/a_200_0#" -172.661
+cap "nfet_25/a_0_n26#" "nfet_24/a_0_n26#" 4.82258
+cap "nfet_24/a_0_n26#" "nfet_25/a_0_n26#" 9.96667
+cap "net1" "nfet_25/a_0_n26#" 146.03
+cap "nfet_24/a_200_0#" "nfet_19/a_200_0#" 1.13687e-13
+cap "nfet_19/a_0_n26#" "nfet_25/a_0_n26#" 0.934375
+cap "nfet_19/a_0_n26#" "nfet_24/a_0_n26#" 1.15891
+merge "nfet_25/a_n60_0#" "nfet_24/a_200_0#" -1396.97 0 0 0 0 0 0 0 0 2322260 -15528 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6400 0 0 513376 -15984 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nfet_24/a_200_0#" "nfet_16/a_200_0#"
+merge "nfet_16/a_200_0#" "nfet_17/a_n60_0#"
+merge "nfet_17/a_n60_0#" "nfet_3/a_n60_0#"
+merge "nfet_3/a_n60_0#" "nfet_2/a_200_0#"
+merge "nfet_2/a_200_0#" "nfet_28/a_n60_0#"
+merge "nfet_28/a_n60_0#" "nfet_29/a_200_0#"
+merge "nfet_29/a_200_0#" "nfet_29/a_n60_0#"
+merge "nfet_29/a_n60_0#" "nfet_25/SUB"
+merge "nfet_25/SUB" "nfet_25/a_0_n26#"
+merge "nfet_25/a_0_n26#" "nfet_25/a_200_0#"
+merge "nfet_25/a_200_0#" "nfet_24/SUB"
+merge "nfet_24/SUB" "nfet_24/a_0_n26#"
+merge "nfet_24/a_0_n26#" "nfet_19/SUB"
+merge "nfet_19/SUB" "nfet_18/SUB"
+merge "nfet_18/SUB" "nfet_17/a_0_n26#"
+merge "nfet_17/a_0_n26#" "nfet_27/a_0_n26#"
+merge "nfet_27/a_0_n26#" "nfet_26/a_0_n26#"
+merge "nfet_26/a_0_n26#" "nfet_21/a_0_n26#"
+merge "nfet_21/a_0_n26#" "nfet_16/SUB"
+merge "nfet_16/SUB" "nfet_16/a_0_n26#"
+merge "nfet_16/a_0_n26#" "nfet_17/SUB"
+merge "nfet_17/SUB" "nfet_7/SUB"
+merge "nfet_7/SUB" "nfet_6/SUB"
+merge "nfet_6/SUB" "nfet_5/SUB"
+merge "nfet_5/SUB" "nfet_4/SUB"
+merge "nfet_4/SUB" "nfet_20/a_0_n26#"
+merge "nfet_20/a_0_n26#" "nfet_3/SUB"
+merge "nfet_3/SUB" "nfet_3/a_0_n26#"
+merge "nfet_3/a_0_n26#" "nfet_2/SUB"
+merge "nfet_2/SUB" "nfet_2/a_0_n26#"
+merge "nfet_2/a_0_n26#" "nfet_1/SUB"
+merge "nfet_1/SUB" "nfet_0/SUB"
+merge "nfet_0/SUB" "nfet_28/SUB"
+merge "nfet_28/SUB" "nfet_28/a_0_n26#"
+merge "nfet_28/a_0_n26#" "nfet_29/SUB"
+merge "nfet_29/SUB" "nfet_29/a_0_n26#"
+merge "nfet_29/a_0_n26#" "nfet_11/a_0_n26#"
+merge "nfet_11/a_0_n26#" "nfet_10/a_0_n26#"
+merge "nfet_10/a_0_n26#" "nfet_30/a_0_n26#"
+merge "nfet_30/a_0_n26#" "nfet_31/a_0_n26#"
+merge "nfet_31/a_0_n26#" "nfet_27/SUB"
+merge "nfet_27/SUB" "nfet_27/a_200_0#"
+merge "nfet_27/a_200_0#" "nfet_27/a_n60_0#"
+merge "nfet_27/a_n60_0#" "nfet_26/SUB"
+merge "nfet_26/SUB" "nfet_26/a_200_0#"
+merge "nfet_26/a_200_0#" "nfet_23/SUB"
+merge "nfet_23/SUB" "nfet_22/SUB"
+merge "nfet_22/SUB" "nfet_20/SUB"
+merge "nfet_20/SUB" "nfet_20/a_200_0#"
+merge "nfet_20/a_200_0#" "nfet_21/SUB"
+merge "nfet_21/SUB" "nfet_21/a_n60_0#"
+merge "nfet_21/a_n60_0#" "nfet_15/SUB"
+merge "nfet_15/SUB" "nfet_13/SUB"
+merge "nfet_13/SUB" "nfet_14/SUB"
+merge "nfet_14/SUB" "nfet_12/SUB"
+merge "nfet_12/SUB" "nfet_11/SUB"
+merge "nfet_11/SUB" "nfet_11/a_n60_0#"
+merge "nfet_11/a_n60_0#" "nfet_10/SUB"
+merge "nfet_10/SUB" "nfet_10/a_200_0#"
+merge "nfet_10/a_200_0#" "nfet_8/SUB"
+merge "nfet_8/SUB" "nfet_9/SUB"
+merge "nfet_9/SUB" "nfet_30/SUB"
+merge "nfet_30/SUB" "nfet_30/a_n60_0#"
+merge "nfet_30/a_n60_0#" "nfet_31/SUB"
+merge "nfet_31/SUB" "nfet_31/a_200_0#"
+merge "nfet_31/a_200_0#" "nfet_31/a_n60_0#"
+merge "nfet_31/a_n60_0#" "gnd"
+merge "nfet_19/a_0_n26#" "nfet_19/a_n60_0#" -3876.58 0 0 0 0 0 0 0 0 839752 -10576 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 294224 -6400 0 0 326224 -13340 16432 -8638 0 0 0 0 0 0 0 0 0 0
+merge "nfet_19/a_n60_0#" "nfet_18/a_0_n26#"
+merge "nfet_18/a_0_n26#" "nfet_18/a_200_0#"
+merge "nfet_18/a_200_0#" "nfet_23/a_0_n26#"
+merge "nfet_23/a_0_n26#" "nfet_22/a_0_n26#"
+merge "nfet_22/a_0_n26#" "nfet_7/a_0_n26#"
+merge "nfet_7/a_0_n26#" "nfet_6/a_0_n26#"
+merge "nfet_6/a_0_n26#" "nfet_5/a_0_n26#"
+merge "nfet_5/a_0_n26#" "nfet_4/a_0_n26#"
+merge "nfet_4/a_0_n26#" "nfet_15/a_0_n26#"
+merge "nfet_15/a_0_n26#" "nfet_13/a_0_n26#"
+merge "nfet_13/a_0_n26#" "nfet_14/a_0_n26#"
+merge "nfet_14/a_0_n26#" "nfet_12/a_0_n26#"
+merge "nfet_12/a_0_n26#" "nfet_1/a_0_n26#"
+merge "nfet_1/a_0_n26#" "nfet_1/a_n60_0#"
+merge "nfet_1/a_n60_0#" "nfet_0/a_0_n26#"
+merge "nfet_0/a_0_n26#" "nfet_0/a_200_0#"
+merge "nfet_0/a_200_0#" "nfet_8/a_0_n26#"
+merge "nfet_8/a_0_n26#" "nfet_9/a_0_n26#"
+merge "nfet_9/a_0_n26#" "nfet_15/a_n60_0#"
+merge "nfet_15/a_n60_0#" "nfet_13/a_n60_0#"
+merge "nfet_13/a_n60_0#" "nfet_14/a_200_0#"
+merge "nfet_14/a_200_0#" "nfet_12/a_200_0#"
+merge "nfet_12/a_200_0#" "net1"
+merge "nfet_7/a_n60_0#" "nfet_6/a_200_0#" -1436.96 0 0 0 0 0 0 0 0 748892 -8800 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 331404 -10768 416412 -4900 0 0 0 0 0 0 0 0 0 0
+merge "nfet_6/a_200_0#" "nfet_5/a_n60_0#"
+merge "nfet_5/a_n60_0#" "nfet_4/a_200_0#"
+merge "nfet_4/a_200_0#" "nfet_23/a_n60_0#"
+merge "nfet_23/a_n60_0#" "nfet_22/a_200_0#"
+merge "nfet_22/a_200_0#" "nfet_8/a_200_0#"
+merge "nfet_8/a_200_0#" "nfet_9/a_n60_0#"
+merge "nfet_9/a_n60_0#" "net2"
+merge "nfet_24/a_n60_0#" "nfet_19/a_200_0#" -2377.15 0 0 0 0 0 0 0 0 1354776 -17384 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 232024 -19256 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nfet_19/a_200_0#" "nfet_18/a_n60_0#"
+merge "nfet_18/a_n60_0#" "nfet_17/a_200_0#"
+merge "nfet_17/a_200_0#" "nfet_20/a_n60_0#"
+merge "nfet_20/a_n60_0#" "nfet_15/a_200_0#"
+merge "nfet_15/a_200_0#" "nfet_13/a_200_0#"
+merge "nfet_13/a_200_0#" "nfet_14/a_n60_0#"
+merge "nfet_14/a_n60_0#" "nfet_12/a_n60_0#"
+merge "nfet_12/a_n60_0#" "nfet_11/a_200_0#"
+merge "nfet_11/a_200_0#" "nfet_2/a_n60_0#"
+merge "nfet_2/a_n60_0#" "nfet_1/a_200_0#"
+merge "nfet_1/a_200_0#" "nfet_0/a_n60_0#"
+merge "nfet_0/a_n60_0#" "nfet_28/a_200_0#"
+merge "nfet_28/a_200_0#" "qp1"
+merge "nfet_16/a_n60_0#" "nfet_7/a_200_0#" -2342.27 0 0 0 0 0 0 0 0 1496712 -21128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 237688 -22928 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nfet_7/a_200_0#" "nfet_6/a_n60_0#"
+merge "nfet_6/a_n60_0#" "nfet_5/a_200_0#"
+merge "nfet_5/a_200_0#" "nfet_4/a_n60_0#"
+merge "nfet_4/a_n60_0#" "nfet_3/a_200_0#"
+merge "nfet_3/a_200_0#" "nfet_26/a_n60_0#"
+merge "nfet_26/a_n60_0#" "nfet_23/a_200_0#"
+merge "nfet_23/a_200_0#" "nfet_22/a_n60_0#"
+merge "nfet_22/a_n60_0#" "nfet_21/a_200_0#"
+merge "nfet_21/a_200_0#" "nfet_10/a_n60_0#"
+merge "nfet_10/a_n60_0#" "nfet_8/a_n60_0#"
+merge "nfet_8/a_n60_0#" "nfet_9/a_200_0#"
+merge "nfet_9/a_200_0#" "nfet_30/a_200_0#"
+merge "nfet_30/a_200_0#" "rp1"

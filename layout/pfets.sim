@@ -1,0 +1,31 @@
+| units: 500000 tech: sky130A format: MIT
+x net2 net6 pfet_1/a_n60_0# vdd l=400 w=1000 x=96 y=36 sky130_fd_pr__pfet_01v8_lvt
+x net2 pfet_1/a_n60_0# vdd vdd l=400 w=1000 x=556 y=36 sky130_fd_pr__pfet_01v8_lvt
+x net2 vdd vref vdd l=400 w=1000 x=1016 y=36 sky130_fd_pr__pfet_01v8_lvt
+x net2 vdd net1 vdd l=400 w=1000 x=1936 y=36 sky130_fd_pr__pfet_01v8_lvt
+x net2 vref vdd vdd l=400 w=1000 x=1476 y=36 sky130_fd_pr__pfet_01v8_lvt
+x net2 net1 vdd vdd l=400 w=1000 x=2396 y=36 sky130_fd_pr__pfet_01v8_lvt
+x net2 vdd net2 vdd l=400 w=1000 x=2856 y=36 sky130_fd_pr__pfet_01v8_lvt
+x net2 vdd net1 vdd l=400 w=1000 x=4696 y=36 sky130_fd_pr__pfet_01v8_lvt
+x net2 net2 vdd vdd l=400 w=1000 x=3316 y=36 sky130_fd_pr__pfet_01v8_lvt
+x net2 net1 vdd vdd l=400 w=1000 x=5156 y=36 sky130_fd_pr__pfet_01v8_lvt
+x net2 vdd net2 vdd l=400 w=1000 x=3776 y=36 sky130_fd_pr__pfet_01v8_lvt
+x net2 vdd vref vdd l=400 w=1000 x=5616 y=36 sky130_fd_pr__pfet_01v8_lvt
+x net2 net2 vdd vdd l=400 w=1000 x=4236 y=36 sky130_fd_pr__pfet_01v8_lvt
+x net2 vref vdd vdd l=400 w=1000 x=6076 y=36 sky130_fd_pr__pfet_01v8_lvt
+x vdd vdd net1 vdd l=400 w=1000 x=6536 y=36 sky130_fd_pr__pfet_01v8_lvt
+x net6 net1 vdd vdd l=400 w=1000 x=6996 y=36 sky130_fd_pr__pfet_01v8_lvt
+x net6 vdd net1 vdd l=400 w=1000 x=7456 y=36 sky130_fd_pr__pfet_01v8_lvt
+C vref net1 8.07
+C vdd net1 10.77
+C net2 net6 6.13
+C vdd net6 11.70
+C vref vdd 4.20
+R net1 1110
+R vref 590
+C net2 GND 4.81
+R net2 4606
+C vdd GND 112.12
+R vdd 16145
+R pfet_1/a_n60_0# 2624
+R net6 3942

@@ -1,0 +1,5 @@
+* SPICE3 file created from /home/sumanto/vsdopen2021_bgr-main/layout/pnpt1.ext - technology: sky130A
+
+.subckt pnpt1 Emitter Collector Base
+X0 Collector Base Emitter 0 sky130_fd_pr__pnp_05v5_W3p40L3p40
+.ends

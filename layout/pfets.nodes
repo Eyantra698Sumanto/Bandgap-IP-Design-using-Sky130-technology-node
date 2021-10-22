@@ -1,0 +1,7 @@
+net1 38 1414 li
+vref 50 1172 li
+net2 16 -101 li
+vdd -127 1650 li
+SUB -1073741267 -1073741787 space
+pfet_1/a_n60_0# 497 36 pdif
+net6 14 -301 li

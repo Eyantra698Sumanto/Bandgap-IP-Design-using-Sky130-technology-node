@@ -1,0 +1,85 @@
+| units: 500000 tech: sky130A format: MIT
+x res1p41_2/a_0_0# li_546_0# li_1084_1992# gnd l=1560 w=282 x=1084 y=432 sky130_fd_pr__res_high_po
+x res1p41_3/a_0_0# a_1628_20# li_1084_1992# gnd l=1560 w=282 x=1622 y=432 sky130_fd_pr__res_high_po
+x res1p41_4/a_0_0# rp1 a_4312_1992# gnd l=1560 w=282 x=2160 y=432 sky130_fd_pr__res_high_po
+x res1p41_5/a_0_0# li_2698_0# a_1628_20# gnd l=1560 w=282 x=2698 y=432 sky130_fd_pr__res_high_po
+x res1p41_6/a_0_0# li_2698_0# li_3236_1992# gnd l=1560 w=282 x=3236 y=432 sky130_fd_pr__res_high_po
+x res1p41_8/a_0_0# a_2166_n1148# a_4312_1992# gnd l=1560 w=282 x=4312 y=432 sky130_fd_pr__res_high_po
+x res1p41_7/a_0_0# li_2696_n234# li_3236_1992# gnd l=1560 w=282 x=3774 y=432 sky130_fd_pr__res_high_po
+x res1p41_9/a_0_0# li_2696_n234# li_4850_1992# gnd l=1560 w=282 x=4850 y=432 sky130_fd_pr__res_high_po
+x res1p41_20/a_0_0# li_1084_n3394# li_3236_n1168# gnd l=1560 w=282 x=3774 y=-2728 sky130_fd_pr__res_high_po
+x res1p41_11/a_0_0# li_5388_0# li_5104_2458# gnd l=1560 w=282 x=5926 y=432 sky130_fd_pr__res_high_po
+x res1p41_10/a_0_0# li_5388_0# li_4850_1992# gnd l=1560 w=282 x=5388 y=432 sky130_fd_pr__res_high_po
+x res1p41_21/a_0_0# qp2 a_2166_n1148# gnd l=1560 w=282 x=4312 y=-2728 sky130_fd_pr__res_high_po
+x res1p41_22/a_0_0# li_1084_n3394# li_4850_n1168# gnd l=1560 w=282 x=4850 y=-2728 sky130_fd_pr__res_high_po
+x res1p41_12/a_0_0# gnd gnd gnd l=1560 w=282 x=6464 y=432 sky130_fd_pr__res_high_po
+x res1p41_23/a_0_0# li_5670_n3160# li_4850_n1168# gnd l=1560 w=282 x=5388 y=-2728 sky130_fd_pr__res_high_po
+x res1p41_24/a_0_0# li_5670_n3160# li_5104_2458# gnd l=1560 w=282 x=5926 y=-2728 sky130_fd_pr__res_high_po
+x res1p41_13/a_0_0# gnd gnd gnd l=1560 w=282 x=8 y=-2728 sky130_fd_pr__res_high_po
+x res1p41_25/a_0_0# gnd gnd gnd l=1560 w=282 x=6464 y=-2728 sky130_fd_pr__res_high_po
+x res1p41_14/a_0_0# qp3 li_546_n1168# gnd l=1560 w=282 x=546 y=-2728 sky130_fd_pr__res_high_po
+x res1p41_15/a_0_0# qp3 li_546_n1168# gnd l=1560 w=282 x=1084 y=-2728 sky130_fd_pr__res_high_po
+x res1p41_16/a_0_0# qp3 li_8_n702# gnd l=1560 w=282 x=1622 y=-2728 sky130_fd_pr__res_high_po
+x res1p41_17/a_0_0# qp2 a_2166_n1148# gnd l=1560 w=282 x=2160 y=-2728 sky130_fd_pr__res_high_po
+x res1p41_18/a_0_0# li_2698_n3160# li_8_n702# gnd l=1560 w=282 x=2698 y=-2728 sky130_fd_pr__res_high_po
+x res1p41_19/a_0_0# li_2698_n3160# li_3236_n1168# gnd l=1560 w=282 x=3236 y=-2728 sky130_fd_pr__res_high_po
+x res1p41_0/a_0_0# gnd gnd gnd l=1560 w=282 x=8 y=432 sky130_fd_pr__res_high_po
+x res1p41_1/a_0_0# li_546_0# vref gnd l=1560 w=282 x=546 y=432 sky130_fd_pr__res_high_po
+C li_2696_n234# a_2166_n1148# 4.78
+C a_2166_n1148# li_8_n702# 6.20
+C qp2 li_1084_n3394# 7.02
+C a_2166_n1148# rp1 2.36
+C a_1628_20# a_4312_1992# 2.20
+C li_3236_1992# a_4312_1992# 2.33
+C qp3 GND 4.85
+R qp3 185
+R li_546_0# 123
+R res1p41_1/a_0_0# 1769
+C vref GND 2.43
+R vref 88
+R res1p41_0/a_0_0# 1769
+R res1p41_19/a_0_0# 1769
+R li_3236_n1168# 136
+R li_2698_n3160# 70
+R res1p41_18/a_0_0# 1769
+C qp2 GND 2.48
+R qp2 430
+R res1p41_17/a_0_0# 1769
+R a_2166_n1148# 738
+R res1p41_16/a_0_0# 1769
+R li_8_n702# 277
+R res1p41_15/a_0_0# 1769
+R res1p41_14/a_0_0# 1769
+R li_546_n1168# 123
+R res1p41_25/a_0_0# 1769
+R res1p41_13/a_0_0# 1769
+R gnd 32150
+R res1p41_24/a_0_0# 1769
+R li_5104_2458# 279
+R li_5670_n3160# 129
+R res1p41_23/a_0_0# 1769
+R res1p41_12/a_0_0# 1769
+R res1p41_22/a_0_0# 1769
+R li_4850_n1168# 121
+R res1p41_21/a_0_0# 1769
+R li_5388_0# 159
+R res1p41_10/a_0_0# 1769
+R res1p41_11/a_0_0# 1769
+R li_1084_n3394# 376
+R res1p41_20/a_0_0# 1769
+R res1p41_9/a_0_0# 1769
+R li_4850_1992# 92
+R li_2696_n234# 194
+R res1p41_7/a_0_0# 1769
+R res1p41_8/a_0_0# 1769
+R res1p41_6/a_0_0# 1769
+R li_3236_1992# 179
+R li_2698_0# 77
+R res1p41_5/a_0_0# 1769
+R rp1 130
+R res1p41_4/a_0_0# 1769
+R a_4312_1992# 373
+R a_1628_20# 252
+R res1p41_3/a_0_0# 1769
+R res1p41_2/a_0_0# 1769
+R li_1084_1992# 114

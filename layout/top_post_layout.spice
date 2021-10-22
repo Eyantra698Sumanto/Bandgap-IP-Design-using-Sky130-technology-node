@@ -1,0 +1,154 @@
+* SPICE3 file created from top.ext - technology: sky130A
+.lib "sky130_fd_pr/models/sky130.lib.spice tt"
+.include "sky130_fd_pr/models/sky130_fd_pr__model__pnp.model.spice"
+
+
+C0 net1 qp1 11.22fF
+C1 qp1 vdd 18.84fF
+C2 resbank_0/a_1628_20# resbank_0/a_4312_1992# 2.20fF
+C3 rp1 qp2 9.69fF
+C4 qp1 net2 2.02fF
+C5 net1 vdd 15.65fF
+C6 qp1 qp3 13.88fF
+C7 net6 vdd 11.97fF
+C8 rp1 li_1206_8736# 3.20fF
+C9 net1 net2 2.37fF
+C10 resbank_0/li_3236_1992# resbank_0/a_4312_1992# 2.33fF
+C11 net6 net2 16.12fF
+C12 qp2 m1_9082_n14# 5.85fF
+C13 vref qp1 5.85fF
+C14 net1 vref 13.67fF
+C15 resbank_0/li_8_n702# li_1206_8736# 6.20fF
+C16 rp1 net1 4.06fF
+C17 vref vdd 5.97fF
+C18 li_1206_8736# resbank_0/li_2696_n234# 4.78fF
+C19 resbank_0/li_1084_n3394# qp2 7.02fF
+C20 rp1 net2 14.93fF
+Xpfets_0 net1 vref net2 net6 vdd pfets
+Xstarternfet_0 net6 gnd starternfet
+Xnfets_0 net1 qp1 gnd rp1 net2 nfets
+Xresbank_0 gnd vref qp2 qp3 rp1 resbank
+Xpnp10_0 qp1 qp2 qp3 gnd pnp10
+C21 net1 gnd 27.46fF
+C22 starternfet_0/a_88_252# gnd 2.69fF **FLOATING
+C23 vdd gnd 127.89fF
+
+* SPICE3 file created from nfets.ext - technology: sky130A
+
+.subckt nfets net1 qp1 gnd rp1 net2
+X0 rp1 gnd gnd gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X1 gnd gnd qp1 gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X2 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X3 net2 net1 rp1 gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X4 rp1 gnd gnd gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X5 qp1 gnd gnd gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X6 gnd gnd rp1 gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X7 rp1 net1 net2 gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X8 net1 net1 qp1 gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X9 gnd gnd qp1 gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X10 qp1 net1 net1 gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X11 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X12 net1 net1 qp1 gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X13 gnd gnd rp1 gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X14 qp1 net1 net1 gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X15 gnd gnd rp1 gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X16 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X17 qp1 gnd gnd gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X18 qp1 gnd gnd gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X19 net1 net1 qp1 gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X20 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X21 qp1 net1 net1 gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X22 net1 net1 qp1 gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X23 gnd gnd qp1 gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X24 qp1 net1 net1 gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X25 rp1 gnd gnd gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X26 net2 net1 rp1 gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X27 rp1 net1 net2 gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X28 net2 net1 rp1 gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X29 rp1 net1 net2 gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X30 net2 net1 rp1 gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+X31 rp1 net1 net2 gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+C0 qp1 net1 9.71fF
+C1 rp1 net1 4.06fF
+C2 net1 net2 2.30fF
+C3 qp1 net2 2.02fF
+C4 rp1 net2 7.43fF
+C5 qp1 gnd 2.25fF
+C6 net1 gnd 32.28fF
+C7 rp1 gnd 2.25fF
+.ends
+* SPICE3 file created from pfets.ext - technology: sky130A
+
+.subckt pfets net1 vref net2 net6 vdd
+X0 pfet_1/a_n60_0# net2 net6 vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=2e+06u
+X1 vdd net2 pfet_1/a_n60_0# vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=2e+06u
+X2 vref net2 vdd vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=2e+06u
+X3 net1 net2 vdd vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=2e+06u
+X4 vdd net2 vref vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=2e+06u
+X5 vdd net2 net1 vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=2e+06u
+X6 net2 net2 vdd vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=2e+06u
+X7 net1 net2 vdd vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=2e+06u
+X8 vdd net2 net2 vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=2e+06u
+X9 vdd net2 net1 vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=2e+06u
+X10 net2 net2 vdd vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=2e+06u
+X11 vref net2 vdd vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=2e+06u
+X12 vdd net2 net2 vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=2e+06u
+X13 vdd net2 vref vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=2e+06u
+X14 net1 vdd vdd vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=2e+06u
+X15 vdd net6 net1 vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=2e+06u
+X16 net1 net6 vdd vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=2e+06u
+C0 net6 vdd 11.70fF
+C1 vref net1 8.07fF
+C2 vdd net1 10.77fF
+C3 vdd vref 4.20fF
+C4 net2 net6 6.13fF
+C5 net2 SUB 4.81fF
+C6 vdd SUB 112.12fF
+.ends
+* SPICE3 file created from resbank.ext - technology: sky130A
+
+.subckt resbank gnd vref qp2 qp3 rp1
+X0 li_546_0# li_1084_1992# gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X1 a_1628_20# li_1084_1992# gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X2 rp1 a_4312_1992# gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X3 li_2698_0# a_1628_20# gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X4 li_2698_0# li_3236_1992# gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X5 a_2166_n1148# a_4312_1992# gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X6 li_2696_n234# li_3236_1992# gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X7 li_2696_n234# li_4850_1992# gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X8 li_1084_n3394# li_3236_n1168# gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X9 li_5388_0# li_5104_2458# gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X10 li_5388_0# li_4850_1992# gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X11 qp2 a_2166_n1148# gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X12 li_1084_n3394# li_4850_n1168# gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X13 gnd gnd gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X14 li_5670_n3160# li_4850_n1168# gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X15 li_5670_n3160# li_5104_2458# gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X16 gnd gnd gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X17 gnd gnd gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X18 qp3 li_546_n1168# gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X19 qp3 li_546_n1168# gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X20 qp3 li_8_n702# gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X21 qp2 a_2166_n1148# gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X22 li_2698_n3160# li_8_n702# gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X23 li_2698_n3160# li_3236_n1168# gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X24 gnd gnd gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+X25 li_546_0# vref gnd sky130_fd_pr__res_high_po w=1.41e+06u l=7.8e+06u
+C0 li_2696_n234# a_2166_n1148# 4.78fF
+C1 a_4312_1992# a_1628_20# 2.20fF
+C2 li_8_n702# a_2166_n1148# 6.20fF
+C3 a_4312_1992# li_3236_1992# 2.33fF
+C4 rp1 a_2166_n1148# 2.36fF
+C5 qp2 li_1084_n3394# 7.02fF
+C6 qp3 gnd 4.85fF
+C7 vref gnd 2.43fF
+C8 qp2 gnd 2.48fF
+.ends
+* SPICE3 file created from starternfet.ext - technology: sky130A
+
+.subckt starternfet net6 gnd
+X0 a_88_252# a_88_252# gnd gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=1e+06u l=7e+06u
+X1 net6 net6 a_88_252# gnd sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=1e+06u l=7e+06u
+C0 net6 gnd 2.30fF
+C1 a_88_252# gnd 2.69fF
+.ends

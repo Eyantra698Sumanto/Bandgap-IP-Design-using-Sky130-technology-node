@@ -1,0 +1,46 @@
+| units: 500000 tech: sky130A format: MIT
+x gnd gnd rp1 gnd l=200 w=1000 x=-200 y=-1554 sky130_fd_pr__nfet_01v8_lvt
+x gnd qp1 gnd gnd l=200 w=1000 x=2140 y=-1554 sky130_fd_pr__nfet_01v8_lvt
+x gnd gnd gnd gnd l=200 w=1000 x=-460 y=-1554 sky130_fd_pr__nfet_01v8_lvt
+x net1 rp1 net2 gnd l=200 w=1000 x=2660 y=-1554 sky130_fd_pr__nfet_01v8_lvt
+x gnd gnd rp1 gnd l=200 w=1000 x=2400 y=-1554 sky130_fd_pr__nfet_01v8_lvt
+x gnd gnd qp1 gnd l=200 w=1000 x=840 y=-1554 sky130_fd_pr__nfet_01v8_lvt
+x gnd rp1 gnd gnd l=200 w=1000 x=580 y=-1554 sky130_fd_pr__nfet_01v8_lvt
+x net1 net2 rp1 gnd l=200 w=1000 x=2920 y=-1554 sky130_fd_pr__nfet_01v8_lvt
+x net1 qp1 net1 gnd l=200 w=1000 x=1100 y=-1554 sky130_fd_pr__nfet_01v8_lvt
+x gnd qp1 gnd gnd l=200 w=1000 x=3180 y=26 sky130_fd_pr__nfet_01v8_lvt
+x net1 net1 qp1 gnd l=200 w=1000 x=1360 y=-1554 sky130_fd_pr__nfet_01v8_lvt
+x gnd gnd gnd gnd l=200 w=1000 x=3440 y=26 sky130_fd_pr__nfet_01v8_lvt
+x net1 qp1 net1 gnd l=200 w=1000 x=1620 y=-1554 sky130_fd_pr__nfet_01v8_lvt
+x gnd rp1 gnd gnd l=200 w=1000 x=3180 y=-1554 sky130_fd_pr__nfet_01v8_lvt
+x net1 net1 qp1 gnd l=200 w=1000 x=1880 y=-1554 sky130_fd_pr__nfet_01v8_lvt
+x gnd rp1 gnd gnd l=200 w=1000 x=2140 y=26 sky130_fd_pr__nfet_01v8_lvt
+x gnd gnd gnd gnd l=200 w=1000 x=3440 y=-1554 sky130_fd_pr__nfet_01v8_lvt
+x gnd gnd qp1 gnd l=200 w=1000 x=2400 y=26 sky130_fd_pr__nfet_01v8_lvt
+x gnd gnd qp1 gnd l=200 w=1000 x=-200 y=26 sky130_fd_pr__nfet_01v8_lvt
+x net1 qp1 net1 gnd l=200 w=1000 x=2660 y=26 sky130_fd_pr__nfet_01v8_lvt
+x gnd gnd gnd gnd l=200 w=1000 x=-460 y=26 sky130_fd_pr__nfet_01v8_lvt
+x net1 net1 qp1 gnd l=200 w=1000 x=2920 y=26 sky130_fd_pr__nfet_01v8_lvt
+x net1 qp1 net1 gnd l=200 w=1000 x=60 y=26 sky130_fd_pr__nfet_01v8_lvt
+x gnd qp1 gnd gnd l=200 w=1000 x=580 y=26 sky130_fd_pr__nfet_01v8_lvt
+x net1 net1 qp1 gnd l=200 w=1000 x=320 y=26 sky130_fd_pr__nfet_01v8_lvt
+x gnd gnd rp1 gnd l=200 w=1000 x=840 y=26 sky130_fd_pr__nfet_01v8_lvt
+x net1 rp1 net2 gnd l=200 w=1000 x=1100 y=26 sky130_fd_pr__nfet_01v8_lvt
+x net1 net2 rp1 gnd l=200 w=1000 x=1360 y=26 sky130_fd_pr__nfet_01v8_lvt
+x net1 rp1 net2 gnd l=200 w=1000 x=1620 y=26 sky130_fd_pr__nfet_01v8_lvt
+x net1 net2 rp1 gnd l=200 w=1000 x=1880 y=26 sky130_fd_pr__nfet_01v8_lvt
+x net1 rp1 net2 gnd l=200 w=1000 x=60 y=-1554 sky130_fd_pr__nfet_01v8_lvt
+x net1 net2 rp1 gnd l=200 w=1000 x=320 y=-1554 sky130_fd_pr__nfet_01v8_lvt
+C rp1 net2 7.43
+C qp1 net1 9.71
+C qp1 net2 2.02
+C rp1 net1 4.06
+C net2 net1 2.30
+R net2 3024
+C qp1 GND 2.25
+R qp1 5654
+C net1 GND 32.28
+R net1 7624
+R gnd 30561
+C rp1 GND 2.25
+R rp1 3551

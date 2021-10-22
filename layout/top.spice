@@ -1,0 +1,34 @@
+* SPICE3 file created from top.ext - technology: sky130A
+.lib "../post_layout/sky130_fd_pr/models/sky130.lib.spice tt"
+.include "../post_layout/sky130_fd_pr/models/sky130_fd_pr__model__pnp.model.spice"
+.subckt top vdd vref gnd
+C0 net1 qp1 11.22fF
+C1 qp1 vdd 18.84fF
+C2 resbank_0/a_1628_20# resbank_0/a_4312_1992# 2.20fF
+C3 rp1 qp2 9.69fF
+C4 qp1 net2 2.02fF
+C5 net1 vdd 15.65fF
+C6 qp1 qp3 13.88fF
+C7 net6 vdd 11.97fF
+C8 rp1 li_1206_8736# 3.20fF
+C9 net1 net2 2.37fF
+C10 resbank_0/li_3236_1992# resbank_0/a_4312_1992# 2.33fF
+C11 net6 net2 16.12fF
+C12 qp2 m1_9082_n14# 5.85fF
+C13 vref qp1 5.85fF
+C14 net1 vref 13.67fF
+C15 resbank_0/li_8_n702# li_1206_8736# 6.20fF
+C16 rp1 net1 4.06fF
+C17 vref vdd 5.97fF
+C18 li_1206_8736# resbank_0/li_2696_n234# 4.78fF
+C19 resbank_0/li_1084_n3394# qp2 7.02fF
+C20 rp1 net2 14.93fF
+Xpfets_0 net1 vref net2 net6 vdd pfets
+Xstarternfet_0 net6 gnd starternfet
+Xnfets_0 net1 qp1 gnd rp1 net2 nfets
+Xresbank_0 gnd vref qp2 qp3 rp1 resbank
+Xpnp10_0 qp1 qp2 qp3 gnd pnp10
+C21 net1 gnd 27.46fF
+C22 starternfet_0/a_88_252# gnd 2.69fF **FLOATING
+C23 vdd gnd 127.89fF
+.ends

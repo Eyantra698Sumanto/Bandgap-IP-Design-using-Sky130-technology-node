@@ -1,0 +1,24 @@
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+
+Subcircuit summary:
+Circuit 1: toplvs.spice                    |Circuit 2: top_post_layout.spice           
+-------------------------------------------|-------------------------------------------
+c (22)                                     |c (22)                                     
+pfets (1)                                  |pfets (1)                                  
+starternfet (1)                            |starternfet (1)                            
+nfets (1)                                  |nfets (1)                                  
+resbank (1)                                |resbank (1)                                
+pnp10 (1)                                  |pnp10 (1)                                  
+**FLOATING (1)                             |**FLOATING (1)                             
+Number of devices: 28                      |Number of devices: 28                      
+Number of nets: 18                         |Number of nets: 18                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes toplvs.spice and top_post_layout.spice are equivalent.
+Circuits match uniquely.

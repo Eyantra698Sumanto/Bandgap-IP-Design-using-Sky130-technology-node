@@ -1,0 +1,39 @@
+* SPICE3 file created from resbank.ext - technology: sky130A
+
+.subckt resbank gnd vref qp2 qp3 rp1
+X0 li_546_0# li_1084_1992# gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X1 a_1628_20# li_1084_1992# gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X2 rp1 a_4312_1992# gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X3 li_2698_0# a_1628_20# gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X4 li_2698_0# li_3236_1992# gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X5 a_2166_n1148# a_4312_1992# gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X6 li_2696_n234# li_3236_1992# gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X7 li_2696_n234# li_4850_1992# gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X8 li_1084_n3394# li_3236_n1168# gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X9 li_5388_0# li_5104_2458# gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X10 li_5388_0# li_4850_1992# gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X11 qp2 a_2166_n1148# gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X12 li_1084_n3394# li_4850_n1168# gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X13 gnd gnd gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X14 li_5670_n3160# li_4850_n1168# gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X15 li_5670_n3160# li_5104_2458# gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X16 gnd gnd gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X17 gnd gnd gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X18 qp3 li_546_n1168# gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X19 qp3 li_546_n1168# gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X20 qp3 li_8_n702# gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X21 qp2 a_2166_n1148# gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X22 li_2698_n3160# li_8_n702# gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X23 li_2698_n3160# li_3236_n1168# gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X24 gnd gnd gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+X25 li_546_0# vref gnd sky130_fd_pr__res_high_po_1p41 w=1.41e+06u l=7.8e+06u
+C0 li_2696_n234# a_2166_n1148# 4.78fF
+C1 a_4312_1992# a_1628_20# 2.20fF
+C2 li_8_n702# a_2166_n1148# 6.20fF
+C3 a_4312_1992# li_3236_1992# 2.33fF
+C4 rp1 a_2166_n1148# 2.36fF
+C5 qp2 li_1084_n3394# 7.02fF
+C6 qp3 gnd 4.85fF
+C7 vref gnd 2.43fF
+C8 qp2 gnd 2.48fF
+.ends

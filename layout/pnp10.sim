@@ -1,0 +1,35 @@
+| units: 500000 tech: sky130A format: MIT
+x gnd gnd gnd l=0 w=0 x=2719 y=1439 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd gnd gnd l=0 w=0 x=4007 y=1439 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd gnd gnd l=0 w=0 x=5295 y=1439 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd vq2 gnd l=0 w=0 x=1431 y=151 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd vq2 gnd l=0 w=0 x=143 y=151 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd vq1 gnd l=0 w=0 x=2719 y=151 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd vq2 gnd l=0 w=0 x=4007 y=151 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd vq2 gnd l=0 w=0 x=5295 y=151 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd vq2 gnd l=0 w=0 x=143 y=-1137 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd vq2 gnd l=0 w=0 x=1431 y=-1137 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd vq3 gnd l=0 w=0 x=2719 y=-1137 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd vq2 gnd l=0 w=0 x=4007 y=-1137 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd vq2 gnd l=0 w=0 x=5295 y=-1137 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd gnd gnd l=0 w=0 x=6583 y=1439 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd gnd gnd l=0 w=0 x=6583 y=151 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd gnd gnd l=0 w=0 x=143 y=-2425 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd gnd gnd l=0 w=0 x=6583 y=-1137 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd gnd gnd l=0 w=0 x=1431 y=-2425 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd gnd gnd l=0 w=0 x=6583 y=-2425 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd gnd gnd l=0 w=0 x=2719 y=-2425 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd gnd gnd l=0 w=0 x=4007 y=-2425 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd gnd gnd l=0 w=0 x=-1145 y=-2425 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd gnd gnd l=0 w=0 x=143 y=1439 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd gnd gnd l=0 w=0 x=-1145 y=151 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd gnd gnd l=0 w=0 x=5295 y=-2425 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd gnd gnd l=0 w=0 x=-1145 y=-1137 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd gnd gnd l=0 w=0 x=1431 y=1439 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x gnd gnd gnd l=0 w=0 x=-1145 y=1439 sky130_fd_pr__pnp_05v5_W3p40L3p40
+R vq3 209
+C vq2 GND 16.74
+R vq2 6271
+R gnd 839279
+C vq1 GND 2.68
+R vq1 209
