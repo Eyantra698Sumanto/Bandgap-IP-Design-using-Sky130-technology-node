@@ -330,9 +330,12 @@ ngspice BGR.cir
 ![image](https://user-images.githubusercontent.com/58599984/138468418-cbc69762-fae1-43d5-85dd-65f6be30951d.png)
 ## BGRSK2-Day2_Lab10 top-level layout extraction lvs postlayout simulation Final
 ### Running lvs using netgen
+```
+lvs top_post_layout.spice toplvs.spice sky130A_setup.tcl
 ![image](https://user-images.githubusercontent.com/58599984/138501325-ab530e03-45da-4048-9c93-93073638363c.png)
 ### running ngspice
-``` ngspice top_post_layout.spice
+``` 
+ngspice top_post_layout.spice
 ```
 ![image](https://user-images.githubusercontent.com/58599984/138514770-a3e3ba43-0831-49f3-b330-7f564dafe565.png)
 
