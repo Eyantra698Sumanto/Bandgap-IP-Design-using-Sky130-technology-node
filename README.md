@@ -328,6 +328,11 @@ ngspice BGR.cir
 ![image](https://user-images.githubusercontent.com/58599984/138468253-a60a1082-045b-45b7-b317-c7eab6d8eeaa.png)
 ![image](https://user-images.githubusercontent.com/58599984/138468298-c44769fa-ee27-4565-bc5a-0845946bf946.png)
 ![image](https://user-images.githubusercontent.com/58599984/138468418-cbc69762-fae1-43d5-85dd-65f6be30951d.png)
+## BGRSK2-Day2_Lab10 top-level layout extraction lvs postlayout simulation Final
+### Running lvs using netgen
+![image](https://user-images.githubusercontent.com/58599984/138501325-ab530e03-45da-4048-9c93-93073638363c.png)
+###
+
 
 
 
