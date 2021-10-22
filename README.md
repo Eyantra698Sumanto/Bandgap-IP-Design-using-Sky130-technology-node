@@ -332,6 +332,7 @@ ngspice BGR.cir
 ### Running lvs using netgen
 ```
 lvs top_post_layout.spice toplvs.spice sky130A_setup.tcl
+```
 ![image](https://user-images.githubusercontent.com/58599984/138501325-ab530e03-45da-4048-9c93-93073638363c.png)
 ### running ngspice
 ``` 
