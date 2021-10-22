@@ -289,6 +289,10 @@ ngspice BGR.cir
 
 #### Plots for Temperature Variation ff corner
 ![image](https://user-images.githubusercontent.com/58599984/138434985-b2439171-1b30-44f5-9a79-101c50daa818.png)
+#### Plots for Startup Circuit Smulation in detail
+![image](https://user-images.githubusercontent.com/58599984/138436290-98949659-35c3-41ee-a0d1-e6e130e2b6a6.png)
+![image](https://user-images.githubusercontent.com/58599984/138436540-de239476-9e70-4165-8cda-54cba1c4bc66.png)
+
 
 
 
