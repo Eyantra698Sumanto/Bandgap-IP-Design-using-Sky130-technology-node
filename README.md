@@ -331,7 +331,9 @@ ngspice BGR.cir
 ## BGRSK2-Day2_Lab10 top-level layout extraction lvs postlayout simulation Final
 ### Running lvs using netgen
 ![image](https://user-images.githubusercontent.com/58599984/138501325-ab530e03-45da-4048-9c93-93073638363c.png)
-###
+### running ngspice
+``` ngspice top_post_layout.spice
+```
 
 
 
